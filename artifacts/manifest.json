@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-13T19:02:24.953905+08:00",
+  "operation_mode": "hybrid_pilot",
+  "initial_validation_mode": "synthetic_only",
+  "stage": "repository_bootstrap",
+  "status": "IN_PROGRESS",
+  "documents": [
+    {
+      "source": "BITE_研究方法与实验设计.md",
+      "path": "docs/RESEARCH_METHOD.md",
+      "sha256": "f98016288daaf40c508b620eb5e25782ac0ac0632df6947a225895897970c24f"
+    },
+    {
+      "source": "BITE_Codex_实施与实现手册.md",
+      "path": "docs/CODEX_PLAYBOOK.md",
+      "sha256": "9ad0fcf3a5a95b02bc0863f21a693b82fda4b5d4552c976ac49129da18930826"
+    },
+    {
+      "source": "BITE 自动化与人工介入补充协议.md",
+      "path": "docs/AUTOMATION_ADDENDUM.md",
+      "sha256": "12a06d6be2ff4d2b2d7abb671dacb2805dd6d6a39e897f691e5328015a8712a1"
+    }
+  ],
+  "runs": []
+}
