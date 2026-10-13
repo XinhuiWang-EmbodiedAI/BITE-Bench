@@ -9,7 +9,7 @@
 | Phase 0 | PASS | 5060 WSL2：uv sync --locked、bite --help、env doctor、pytest、ruff 均成功 |
 | Phase 1 | PASS | 五个合成食品、两个菜单、两个用户；合同、份量/日聚合、缺失阻断、权重/调整/BT 方向不变性验收通过；本地和远程各 32 项测试 |
 | Phase 2 | BLOCKED | 工程验证通过：本地与 5060 各 57 项测试及 lint；来源提案 1 条，正式食品 0/48、批准 0，正式菜单 0/60 |
-| Phase 3 | NOT_STARTED | 尚未实施 |
+| Phase 3 | IN_PROGRESS | 独立 apps/bite-collect taste 采集模块合成工程 PASS；菜单问卷、主动学习及真人正式门槛未完成 |
 | Phase 4 | NOT_STARTED | 尚未实施 |
 | Phase 5 | NOT_STARTED | 尚未实施 |
 | Phase 6 | NOT_STARTED | 尚未实施 |
@@ -57,3 +57,18 @@
 远程最终诊断：项目 Python 3.12.14；GPU 可见，显存使用快照 871 MiB / 8151 MiB；torch 未安装，Ollama localhost connection refused。该快照不代表模型峰值显存。
 
 网络恢复记录：中止本任务的慢速下载；经本地下载并在两端校验 uv.lock SHA256 的四个 Linux wheel，以包名从本地目录安装，再完整 uv sync --locked 和验收。失败与替代路径均有日志。
+
+## 2026-10-13 — 独立 Offline-first BITE Collect
+
+- 范围：`apps/bite-collect/`，仅 `synthetic_only` 工程；总体默认模式仍为 `hybrid_pilot`。未修改三份研究规范、公式、M0–M4、既有划分或正式协议。
+- 完成：版本化说明/18+/自愿确认、UUID 匿名会话和恢复撤回码、40 train + 10 frozen test 成对比较、8 train 锚点直接评分、SQLite 逐题事务、防重复/冲突、暂停/重启恢复、多人连续采集、受控采集员进度、分区导出、备份/撤回、独立 JSON 题库接口。
+- Fixture：16 个明确 synthetic 文字食品，未知营养保持 null；不是 FoodBench-48。测试 5 known + 5 cold，冷食物不进入训练或评分。所有答案 research_eligible=false，真人题库和 human 导出硬拒绝。
+- 实测：macOS Python 3.12.14、5060 WSL2 Python 3.12.14、Windows 10 原生 embedded Python 3.14.7，各 23 项模块测试通过；仓库 pytest 80 passed，ruff 通过。Windows 原生浏览器视觉验收 NOT_RUN；原生 HTTP/SQLite/导出/备份/撤回由自动测试验证。
+- 浏览器：macOS 内置浏览器实际走完 58 题；验证说明阻断、0 分主动选择、暂停/刷新恢复、下一位复位、服务中断保留原 payload、重启后重试、防双计、控制台下载。独立测试库 2 个 synthetic 会话，导出实测 train pairs=41、test pairs=10、train ratings=8；不计入真人参与者。
+- 首次 Windows 备份测试发现目标 SQLite 连接未显式关闭，导致 WinError32；修复关闭后重跑三端，失败日志保留。整包 SCP 过慢已中止；目标机在独立临时目录下载官方运行时并复核 SHA256，没有系统安装、PATH/驱动修改或公网监听。
+- Windows 离线包：`outputs/packages/bite-collect-windows-x64-v0.1.0-final.zip`；带官方运行时/LICENSE，无数据库、答案、同意记录或密钥。启动后只监听 127.0.0.1。
+- 运行命令：`.venv/bin/python apps/bite-collect/run.py serve`；测试 `.venv/bin/python -m unittest discover -s apps/bite-collect/tests -v`、`uv run --no-sync pytest -q`、`uv run --no-sync ruff check apps/bite-collect src tests`。Windows 包解压后 `start-windows.cmd` 或 `runtime-python/python.exe -m unittest discover -s tests -v`。
+- 实际日志：`outputs/reports/bite-collect/`；源码、题库、运行时、离线包和日志 SHA256 记录在 artifacts/manifest.json。
+- 本模块真实研究参与者=0；正式 HUMAN_STUDY=BLOCKED / FORMAL_COLLECTION_DISABLED_AND_FOODBENCH_NOT_APPROVED；RQ1/RQ2=NOT_RUN。未开展正式真人采集，未代真人作答。
+- Phase 0/1 沿用既有验收；Phase 2 正式 FoodBench 仍 BLOCKED；Phase 3 仅独立 taste 采集模块工程 PASS，阶段总体 IN_PROGRESS。Phase 4–11 本轮未执行，不升级为 PASS。
+- 下一步：经审核的 FoodBench 与正式同意/机构流程完成后再实现受控正式适配器；菜单问卷、正式 active/random 策略与评价隔离按既有方法后续实施。

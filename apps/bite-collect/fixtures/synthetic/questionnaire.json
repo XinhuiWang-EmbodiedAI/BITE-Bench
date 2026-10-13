@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "bank_version": "synthetic_text_v1",
+  "is_synthetic": true,
+  "research_eligible": false,
+  "heldout_food_ids": [
+    "syn_f12",
+    "syn_f13",
+    "syn_f14",
+    "syn_f15"
+  ],
+  "consent": {
+    "version": "synthetic_demo_consent_v1",
+    "text": "这是 SYNTHETIC DEMO 软件验证，不是正式真人研究采集。仅限年满 18 岁、自愿体验。你将完成 50 次成对比较和 8 次 0–10 预期美味评分，可跳过任意题、随时暂停或退出。这里评价的是看文字后的预期好吃程度，不是试吃，不是营养或医学建议。系统不索取姓名、联系方式、身体或健康信息；随机匿名 ID、展示顺序、选择、是否吃过（可不答）、饥饿程度（可不答）、时间与说明确认版本只保存在本机 SQLite。所有记录标记 synthetic / research_eligible=false，不作为人类研究结果或公开发布。演示记录保留至本机操作者删除；默认不联网同步。请保存恢复/撤回码：可用它恢复或删除该会话，采集员无法替你修改回答。导出与备份由本机操作者控制，撤回会删除当前数据库记录，已下载副本需交由操作者另行删除。正式研究的数据用途、保存期限、公开范围与机构流程必须另行审核，本说明不构成正式研究同意。"
+  },
+  "foods": [
+    {
+      "food_id": "syn_f00",
+      "name_zh": "米饭（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f01",
+      "name_zh": "面条（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f02",
+      "name_zh": "烤鸡（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f03",
+      "name_zh": "煮蛋（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f04",
+      "name_zh": "豆腐（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f05",
+      "name_zh": "西兰花（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f06",
+      "name_zh": "苹果（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f07",
+      "name_zh": "香蕉（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f08",
+      "name_zh": "蛋糕（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f09",
+      "name_zh": "酸奶（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f10",
+      "name_zh": "茶（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f11",
+      "name_zh": "饺子（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f12",
+      "name_zh": "玉米（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f13",
+      "name_zh": "蘑菇（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f14",
+      "name_zh": "燕麦（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    },
+    {
+      "food_id": "syn_f15",
+      "name_zh": "橙子（合成示例）",
+      "description": "虚构配方文字，仅用于软件流程验证，不代表已审核 FoodBench 食品。",
+      "serving_g": 100,
+      "serving_description": "示例标准份量 100 克",
+      "energy_kcal_per_100g": null,
+      "protein_g_per_100g": null,
+      "fiber_g_per_100g": null,
+      "sodium_mg_per_100g": null,
+      "image_path": null,
+      "is_synthetic": true
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "syn_p00",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f01",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p01",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f02",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p02",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f03",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p03",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f04",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p04",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f04",
+      "food_b_id": "syn_f05",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p05",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f05",
+      "food_b_id": "syn_f06",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p06",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f06",
+      "food_b_id": "syn_f07",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p07",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f07",
+      "food_b_id": "syn_f08",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p08",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f08",
+      "food_b_id": "syn_f09",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p09",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f09",
+      "food_b_id": "syn_f10",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p10",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f10",
+      "food_b_id": "syn_f11",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p11",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f11",
+      "food_b_id": "syn_f00",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p12",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f02",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p13",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f03",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p14",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f04",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p15",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f05",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p16",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f06",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p17",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f07",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p18",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f08",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p19",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f09",
+      "query_policy": "fixture_coverage_v1"
+    },
+    {
+      "question_id": "syn_p20",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f10",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p21",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f03",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p22",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f04",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p23",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f05",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p24",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f06",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p25",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f07",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p26",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f08",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p27",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f09",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p28",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f10",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p29",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f11",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p30",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f04",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p31",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f05",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p32",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f06",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p33",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f07",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p34",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f08",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p35",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f09",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p36",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f10",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p37",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f11",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p38",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f05",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p39",
+      "kind": "pair",
+      "split": "train",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f06",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p40",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f07",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p41",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f08",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p42",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f09",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p43",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f10",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p44",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f11",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p45",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f00",
+      "food_b_id": "syn_f12",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p46",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f01",
+      "food_b_id": "syn_f13",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p47",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f02",
+      "food_b_id": "syn_f14",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p48",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f03",
+      "food_b_id": "syn_f15",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_p49",
+      "kind": "pair",
+      "split": "test",
+      "food_a_id": "syn_f04",
+      "food_b_id": "syn_f12",
+      "query_policy": "fixture_fixed_v1"
+    },
+    {
+      "question_id": "syn_r00",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f00"
+    },
+    {
+      "question_id": "syn_r01",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f01"
+    },
+    {
+      "question_id": "syn_r02",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f02"
+    },
+    {
+      "question_id": "syn_r03",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f03"
+    },
+    {
+      "question_id": "syn_r04",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f04"
+    },
+    {
+      "question_id": "syn_r05",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f05"
+    },
+    {
+      "question_id": "syn_r06",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f06"
+    },
+    {
+      "question_id": "syn_r07",
+      "kind": "rating",
+      "split": "train",
+      "food_id": "syn_f07"
+    }
+  ]
+}

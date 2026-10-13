@@ -43,3 +43,7 @@ uv run bite menu validate --input data/menus/day_menus.csv --food-data data/cura
 ```
 
 正式门禁当前预期返回 exit 2（BLOCKED），因为尚无已审核食品。个人 USDA_FDC_API_KEY 设置在不提交的 .env 中；正常检索预算默认 96 次，DEMO 模式限制少量 smoke。离线可显式 --network-budget 0，复用已保存的真实来源快照。源数据与流程说明见 [数据字典](docs/DATA_DICTIONARY.md)，当前最小人工任务见 [审核待办](docs/HUMAN_ACTIONS.md)。
+
+## 独立离线采集模块
+
+[apps/bite-collect](apps/bite-collect/README.md) 提供本机 SQLite 自动保存的匿名问卷、50 次成对比较、8 次直接评分、恢复/撤回、采集员进度和分区导出。当前仅为明确标记的 synthetic 工程演示；正式真人采集关闭。Windows 可使用携带 Python 运行时的离线 ZIP，也可用 Python 3.12+ 直接运行。

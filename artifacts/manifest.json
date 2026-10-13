@@ -278,6 +278,181 @@
           "sha256": "b6fdcd3660d1be788e1704e66c1d38bc390993bb04e9c82de3b29d96de41a11c"
         }
       ]
+    },
+    {
+      "run_id": "20261013T141354Z_bite_collect_synthetic",
+      "status": "PASS",
+      "scope": "apps/bite-collect standalone offline engineering acceptance only",
+      "mode": "synthetic_only",
+      "code_commit": "60a84765d7f756152ad3ce585c387ad00823363e",
+      "code_worktree": "dirty; new module uncommitted",
+      "code_version": "dirty_f17330015529",
+      "source_sha256": "f173300155292441c6cadfe7c1046e5ffc663dc47f49a6ae94c8fd4348c97869",
+      "source_files": [
+        {
+          "path": "apps/bite-collect/.gitignore",
+          "sha256": "15bf620a268bbf0612ca39c3f37885f110acdac2b451834cb93dbddf5fd61178"
+        },
+        {
+          "path": "apps/bite-collect/QUESTIONNAIRE_CONTRACT.md",
+          "sha256": "bc9cabc28cc4c787ec40d917d064332f0ebecb07d5204c1e95db8de6dfbfb59d"
+        },
+        {
+          "path": "apps/bite-collect/README.md",
+          "sha256": "a32203b96d7cc7f3657748f63145e272df3fdc04358c538bdff91694ca643c07"
+        },
+        {
+          "path": "apps/bite-collect/bite_collect/__init__.py",
+          "sha256": "4711840041496d6beec7b15be29a7912cd6b8671c3dc0362324eb300c50576be"
+        },
+        {
+          "path": "apps/bite-collect/bite_collect/bank.py",
+          "sha256": "60f186bee116343f8972fa7f5d801fc3b8d18143eca54ab5f35e81e7b851dd79"
+        },
+        {
+          "path": "apps/bite-collect/bite_collect/exporter.py",
+          "sha256": "582529000e6cbc6bb55665f5193fea66a490426c41eb88b1f10614fff5e15d10"
+        },
+        {
+          "path": "apps/bite-collect/bite_collect/server.py",
+          "sha256": "44736b84e53f56f210f26b567c89f0b3e3c48ac206fe6a8e75a3c8409d6e69c0"
+        },
+        {
+          "path": "apps/bite-collect/bite_collect/store.py",
+          "sha256": "f9a9ab85daa7d416643c3932d0f13cd180f2bfce1b6d309634e08e4b51d289b7"
+        },
+        {
+          "path": "apps/bite-collect/build_windows.py",
+          "sha256": "cf80a01df57b24825146422e7c94cfe01479ab997393568b27b6de3def1e2402"
+        },
+        {
+          "path": "apps/bite-collect/fixtures/synthetic/build_fixture.py",
+          "sha256": "41358f5ddb44a601e35d9de9c61a4b07c455cadc0de563171af3885df6c50bd6"
+        },
+        {
+          "path": "apps/bite-collect/fixtures/synthetic/questionnaire.json",
+          "sha256": "b6012c15e4ace808db2e10a87d3d475d3d72ca60a7dbf8285c97fdd780293fa0"
+        },
+        {
+          "path": "apps/bite-collect/run.py",
+          "sha256": "dc90467e2cc69aac74909747bee6e778836caf1f4c7d164b2fbacd08ce9b7b2d"
+        },
+        {
+          "path": "apps/bite-collect/start-windows.cmd",
+          "sha256": "fef9d5ed175c65e126ab100593598ccdf6d09369865e11790c0879ed02fa624b"
+        },
+        {
+          "path": "apps/bite-collect/static/app.js",
+          "sha256": "503d4a19e47dbdb26425dc070bcd03ac6d02ec0049c0a537abc7dfb1625c2c82"
+        },
+        {
+          "path": "apps/bite-collect/static/collector.html",
+          "sha256": "a05e58635b7de4ac831b52b1b743c162943fc7ee3286d9f38a134a3bead74c23"
+        },
+        {
+          "path": "apps/bite-collect/static/collector.js",
+          "sha256": "7d80fa355b6417fca97e5dd5c2b4c97f9452f8d8b2e8052a22d9ef001ce56496"
+        },
+        {
+          "path": "apps/bite-collect/static/index.html",
+          "sha256": "81a6f38f59e71efda60c8dbff0f2fbdcc3514dbcf23053686f0a5aa16861459b"
+        },
+        {
+          "path": "apps/bite-collect/static/style.css",
+          "sha256": "522700b399a420a09b604ff4cd0c8c8c1ccc39b5600824d95af322086e645731"
+        },
+        {
+          "path": "apps/bite-collect/tests/test_collect.py",
+          "sha256": "9ca93d7dc3ca9037d2c3ffb3025757f4a0d8b45e292425b850650b0edc3431fb"
+        }
+      ],
+      "config_sha256": "a103187704a0fc67a3ba0c418b0e3d8decd65f7fb9c0a6a7db2619b66e8f6ff5",
+      "dataset_sha256": "a103187704a0fc67a3ba0c418b0e3d8decd65f7fb9c0a6a7db2619b66e8f6ff5",
+      "model_name": null,
+      "model_digest": null,
+      "seed": null,
+      "tests_passed": 23,
+      "tests_by_host": {
+        "macOS_Python_3.12.14": 23,
+        "WSL2_Python_3.12.14": 23,
+        "Windows10_native_embedded_Python_3.14.7": 23
+      },
+      "repository_tests_passed": 80,
+      "browser_acceptance": "PASS on macOS IAB; native Windows browser visual QA NOT_RUN",
+      "browser_fixture_counts": {
+        "train_pairs": 41,
+        "test_pairs": 10,
+        "train_ratings": 8
+      },
+      "browser_fixture_sessions": 2,
+      "real_participants": 0,
+      "formal_human_collection_enabled": false,
+      "human_study_status": "BLOCKED",
+      "reason_code": "FORMAL_COLLECTION_DISABLED_AND_FOODBENCH_NOT_APPROVED",
+      "phase_3_status": "IN_PROGRESS; only independent taste collector completed; menus/active learning/formal study outstanding",
+      "runtime_source": {
+        "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-embed-amd64.zip",
+        "sha256": "d297e5ff019966817ad8502465176139f2d3d840fa4ed84b13bed399a6ab1f15",
+        "modification": "isolated python314._pth includes app parent"
+      },
+      "failures_preserved": [
+        "Windows backup destination connection was not explicitly closed; WinError32; fixed using contextlib.closing, all hosts rerun",
+        "Direct full ZIP SCP transfer too slow, interrupted; target used hash-verified official runtime download plus isolated source copy"
+      ],
+      "files": [
+        {
+          "path": "outputs/reports/bite-collect/bank-validation.json",
+          "sha256": "6f93bed57130eb11da51e9493e669052eb43d0831f99aa950d8822984f1ee24c"
+        },
+        {
+          "path": "outputs/reports/bite-collect/browser-acceptance.json",
+          "sha256": "d87aa487cd70c417c37a4ece430da5ee1ea5f4e95a8d47bfbec7b577c900b400"
+        },
+        {
+          "path": "outputs/reports/bite-collect/browser-export-manifest.json",
+          "sha256": "0010adf0d236936f03c6488c268015be137d5431500156e2d1fb0b1bbb4fa918"
+        },
+        {
+          "path": "outputs/reports/bite-collect/collector-ui.png",
+          "sha256": "9b3e10dfe666dcb0a742ca73f2d9f413155d85d074e45bff6e38417a8fc4a154"
+        },
+        {
+          "path": "outputs/reports/bite-collect/lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/bite-collect/local-tests.txt",
+          "sha256": "56d7a84459edaff4a5ecb3c7fbb0fb6bbe8d4e14c691be739b45ff58c33df0aa"
+        },
+        {
+          "path": "outputs/reports/bite-collect/participant-ui.png",
+          "sha256": "af372795099ce45a8e756099ce1e1c3799800e3bcdf299f61b7d0fde5870dc90"
+        },
+        {
+          "path": "outputs/reports/bite-collect/repository-tests.txt",
+          "sha256": "588770733f9def3e225ff143928ef08cd383cad4bba6aec2677343fbf10d4398"
+        },
+        {
+          "path": "outputs/reports/bite-collect/windows-native-first-failure.txt",
+          "sha256": "4b9953bf70f9e02b6cef7fac82da480ec83e2a302713a4b9f80cbd33b8659b8f"
+        },
+        {
+          "path": "outputs/reports/bite-collect/windows-native-tests.txt",
+          "sha256": "6c012ced9e1355957d2456c4e4351cb49945d560a1c8a2bdd8fc3fdf651acc03"
+        },
+        {
+          "path": "outputs/reports/bite-collect/wsl-tests.txt",
+          "sha256": "249a918c334c84deb3e21684e185b67dadcb1848b25e4bbdd4b7b8f192aabd3a"
+        },
+        {
+          "path": "outputs/reports/bite-collect/synthetic/browser-export.zip",
+          "sha256": "95f0522aa58bc40c355661d82a42db5462beb4f2435b088c07641f211b184b3b"
+        },
+        {
+          "path": "outputs/packages/bite-collect-windows-x64-v0.1.0-final.zip",
+          "sha256": "b146679ef5f369a422d7c33a37f8b0d1201d22f26a7033b8b97f666a628c588d"
+        }
+      ]
     }
   ],
   "scope": "document_copy_and_repository_bootstrap_only",
