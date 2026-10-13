@@ -1,0 +1,49 @@
+food_id,name_zh,name_en,primary_category,recipe_variant,serving_g,energy_kcal_per_100g,protein_g_per_100g,fat_g_per_100g,carbs_g_per_100g,fiber_g_per_100g,sodium_mg_per_100g,fruit_veg_g_per_serving,source_system,source_record_id,source_url,retrieved_at,data_quality,image_path,image_license,is_synthetic
+F001,白米饭,white rice cooked,staple,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F002,糙米饭,brown rice cooked,staple,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F003,全麦面包,whole wheat bread,staple,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F004,燕麦粥,oatmeal cooked water,staple,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F005,水煮面条,noodles cooked,staple,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F006,馒头,steamed bread mantou,staple,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F007,烤鸡胸肉,chicken breast roasted,meat_egg,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F008,水煮鸡蛋,egg hard boiled,meat_egg,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F009,炖牛肉,beef stewed,meat_egg,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F010,烤三文鱼,salmon cooked,meat_egg,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F011,红烧肉,braised pork belly,meat_egg,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F012,炸鸡,chicken fried,meat_egg,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F013,生西兰花,broccoli raw,vegetable_legume,raw,,34.0,2.82,0.37,6.64,2.6,33.0,,USDA_FDC,170379,https://fdc.nal.usda.gov/food-details/170379/nutrients,2026-10-13T13:02:52.388041+00:00,database,,,False
+F014,水煮菠菜,spinach boiled,vegetable_legume,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F015,水煮胡萝卜,carrots boiled,vegetable_legume,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F016,豆腐,tofu firm,vegetable_legume,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F017,麻婆豆腐,mapo tofu,vegetable_legume,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F018,水煮卷心菜,cabbage boiled,vegetable_legume,cooked,,,,,,,,,unresolved,,,,unknown,,,False
+F019,苹果,apple raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F020,香蕉,banana raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F021,橙子,orange raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F022,葡萄,grapes raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F023,西瓜,watermelon raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F024,梨,pear raw,fruit,raw,,,,,,,,,unresolved,,,,unknown,,,False
+F025,香草冰淇淋,vanilla ice cream,dessert,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F026,黑巧克力,dark chocolate,dessert,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F027,芝士蛋糕,cheesecake,dessert,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F028,甜甜圈,doughnut,dessert,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F029,水果果冻,fruit jelly,dessert,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F030,蛋挞,egg tart,dessert,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F031,饮用水,drinking water,beverage,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F032,低脂牛奶,milk 2 percent,beverage,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F033,原味豆浆,soy beverage plain,beverage,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F034,含糖可乐,cola regular,beverage,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F035,橙汁,orange juice,beverage,labelled,,,,,,,,,unresolved,,,,unknown,,,False
+F036,珍珠奶茶,bubble milk tea,beverage,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F037,汉堡薯条套餐,burger fries meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F038,鸡肉米饭套餐,chicken rice meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F039,披萨套餐,pizza meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F040,三明治套餐,sandwich meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F041,炸鸡套餐,fried chicken meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F042,热狗套餐,hot dog meal,fast_food,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F043,猪肉饺子,pork dumplings,other,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F044,牛肉汤面,beef noodle soup,other,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F045,火锅,hot pot,other,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F046,麻辣香锅,mala stir fry,other,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F047,蛋炒饭,egg fried rice,other,composite,,,,,,,,,unresolved,,,,unknown,,,False
+F048,组合沙拉,mixed salad,other,composite,,,,,,,,,unresolved,,,,unknown,,,False

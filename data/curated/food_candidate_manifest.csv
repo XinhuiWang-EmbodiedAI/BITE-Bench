@@ -1,0 +1,49 @@
+food_id,name_zh,name_en,primary_category,preparation,source_query,status,is_synthetic
+F001,白米饭,white rice cooked,staple,cooked,white rice cooked,candidate_identity_only,false
+F002,糙米饭,brown rice cooked,staple,cooked,brown rice cooked,candidate_identity_only,false
+F003,全麦面包,whole wheat bread,staple,labelled,whole wheat bread,candidate_identity_only,false
+F004,燕麦粥,oatmeal cooked water,staple,cooked,oatmeal cooked water,candidate_identity_only,false
+F005,水煮面条,noodles cooked,staple,cooked,noodles cooked,candidate_identity_only,false
+F006,馒头,steamed bread mantou,staple,composite,steamed bread mantou,candidate_identity_only,false
+F007,烤鸡胸肉,chicken breast roasted,meat_egg,cooked,chicken breast roasted,candidate_identity_only,false
+F008,水煮鸡蛋,egg hard boiled,meat_egg,cooked,egg hard boiled,candidate_identity_only,false
+F009,炖牛肉,beef stewed,meat_egg,cooked,beef stewed,candidate_identity_only,false
+F010,烤三文鱼,salmon cooked,meat_egg,cooked,salmon cooked,candidate_identity_only,false
+F011,红烧肉,braised pork belly,meat_egg,composite,braised pork belly,candidate_identity_only,false
+F012,炸鸡,chicken fried,meat_egg,composite,chicken fried,candidate_identity_only,false
+F013,生西兰花,broccoli raw,vegetable_legume,raw,broccoli raw,candidate_identity_only,false
+F014,水煮菠菜,spinach boiled,vegetable_legume,cooked,spinach boiled,candidate_identity_only,false
+F015,水煮胡萝卜,carrots boiled,vegetable_legume,cooked,carrots boiled,candidate_identity_only,false
+F016,豆腐,tofu firm,vegetable_legume,labelled,tofu firm,candidate_identity_only,false
+F017,麻婆豆腐,mapo tofu,vegetable_legume,composite,mapo tofu,candidate_identity_only,false
+F018,水煮卷心菜,cabbage boiled,vegetable_legume,cooked,cabbage boiled,candidate_identity_only,false
+F019,苹果,apple raw,fruit,raw,apple raw,candidate_identity_only,false
+F020,香蕉,banana raw,fruit,raw,banana raw,candidate_identity_only,false
+F021,橙子,orange raw,fruit,raw,orange raw,candidate_identity_only,false
+F022,葡萄,grapes raw,fruit,raw,grapes raw,candidate_identity_only,false
+F023,西瓜,watermelon raw,fruit,raw,watermelon raw,candidate_identity_only,false
+F024,梨,pear raw,fruit,raw,pear raw,candidate_identity_only,false
+F025,香草冰淇淋,vanilla ice cream,dessert,labelled,vanilla ice cream,candidate_identity_only,false
+F026,黑巧克力,dark chocolate,dessert,labelled,dark chocolate,candidate_identity_only,false
+F027,芝士蛋糕,cheesecake,dessert,composite,cheesecake,candidate_identity_only,false
+F028,甜甜圈,doughnut,dessert,composite,doughnut,candidate_identity_only,false
+F029,水果果冻,fruit jelly,dessert,labelled,fruit jelly,candidate_identity_only,false
+F030,蛋挞,egg tart,dessert,composite,egg tart,candidate_identity_only,false
+F031,饮用水,drinking water,beverage,labelled,drinking water,candidate_identity_only,false
+F032,低脂牛奶,milk 2 percent,beverage,labelled,milk 2 percent,candidate_identity_only,false
+F033,原味豆浆,soy beverage plain,beverage,labelled,soy beverage plain,candidate_identity_only,false
+F034,含糖可乐,cola regular,beverage,labelled,cola regular,candidate_identity_only,false
+F035,橙汁,orange juice,beverage,labelled,orange juice,candidate_identity_only,false
+F036,珍珠奶茶,bubble milk tea,beverage,composite,bubble milk tea,candidate_identity_only,false
+F037,汉堡薯条套餐,burger fries meal,fast_food,composite,burger fries meal,candidate_identity_only,false
+F038,鸡肉米饭套餐,chicken rice meal,fast_food,composite,chicken rice meal,candidate_identity_only,false
+F039,披萨套餐,pizza meal,fast_food,composite,pizza meal,candidate_identity_only,false
+F040,三明治套餐,sandwich meal,fast_food,composite,sandwich meal,candidate_identity_only,false
+F041,炸鸡套餐,fried chicken meal,fast_food,composite,fried chicken meal,candidate_identity_only,false
+F042,热狗套餐,hot dog meal,fast_food,composite,hot dog meal,candidate_identity_only,false
+F043,猪肉饺子,pork dumplings,other,composite,pork dumplings,candidate_identity_only,false
+F044,牛肉汤面,beef noodle soup,other,composite,beef noodle soup,candidate_identity_only,false
+F045,火锅,hot pot,other,composite,hot pot,candidate_identity_only,false
+F046,麻辣香锅,mala stir fry,other,composite,mala stir fry,candidate_identity_only,false
+F047,蛋炒饭,egg fried rice,other,composite,egg fried rice,candidate_identity_only,false
+F048,组合沙拉,mixed salad,other,composite,mixed salad,candidate_identity_only,false

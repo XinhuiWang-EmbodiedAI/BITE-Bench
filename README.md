@@ -29,3 +29,17 @@ uv run ruff check src tests
 ```
 
 macOS 若 editable 安装的 `.pth` 被隐藏文件标志影响，可使用 `uv sync --locked --no-editable --reinstall-package bitebench` 后以 `uv run --no-sync` 验证。普通安装在源代码变更后需要重建；目标 WSL2 环境已通过上述原始验收命令。
+
+Phase 2 已实现来源检索、单位映射、配方估算、候选清单、审核队列和正式数据门禁。真实检索已取得 1 条 USDA 未审核提案；正式食品/菜单仍为 0，Phase 2 正式门槛 BLOCKED。
+
+```bash
+uv run python scripts/build_candidate_manifests.py
+uv run bite review prepare
+uv run bite review queue --only-actionable
+uv run bite review view
+uv run bite data report --input data/curated/foodbench48.csv
+uv run bite data validate --input data/curated/foodbench48.csv --strict
+uv run bite menu validate --input data/menus/day_menus.csv --food-data data/curated/foodbench48.csv
+```
+
+正式门禁当前预期返回 exit 2（BLOCKED），因为尚无已审核食品。个人 USDA_FDC_API_KEY 设置在不提交的 .env 中；正常检索预算默认 96 次，DEMO 模式限制少量 smoke。离线可显式 --network-budget 0，复用已保存的真实来源快照。源数据与流程说明见 [数据字典](docs/DATA_DICTIONARY.md)，当前最小人工任务见 [审核待办](docs/HUMAN_ACTIONS.md)。
