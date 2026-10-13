@@ -43,3 +43,33 @@ uv run bite menu validate --input data/menus/day_menus.csv --food-data data/cura
 ```
 
 正式门禁当前预期返回 exit 2（BLOCKED），因为尚无已审核食品。个人 USDA_FDC_API_KEY 设置在不提交的 .env 中；正常检索预算默认 96 次，DEMO 模式限制少量 smoke。离线可显式 --network-budget 0，复用已保存的真实来源快照。源数据与流程说明见 [数据字典](docs/DATA_DICTIONARY.md)，当前最小人工任务见 [审核待办](docs/HUMAN_ACTIONS.md)。
+
+
+Phase 3 合成冻结与存储层子系统验证通过，整个阶段 IN_PROGRESS。执行位置：本机 WSL /home/adminhh/projects/bite-bench；真人采集关闭。
+
+```bash
+uv run --no-sync bite split freeze
+uv run --no-sync bite split audit
+uv run --no-sync bite label export --source outputs/runs/phase3/synthetic/labels.sqlite --out outputs/runs/phase3/synthetic/train_export.csv
+```
+
+五食品划分为部分合成夹具，不替代正式 40/10/8 设计。终端 UI、锚点评分和菜单双阶段存储已完成工程验证；主动查询已接入并完成完整规模合成验收；正式研究门槛仍未完成。
+
+
+2026-10-14：合成终端问卷、锚点评分和菜单双阶段存储已通过工程验证（74 项测试）。
+
+```bash
+uv run --no-sync bite split freeze-questionnaire
+uv run --no-sync bite label app --mode synthetic_only
+```
+
+使用 new / resume / withdraw 管理合成演示记录，输入 exit 保存退出。详细步骤见 docs/ANNOTATION_GUIDE.md。首版为本地终端 UI；主动模型调度和完整规模合成验收已通过，正式研究验收及真人采集仍未完成。
+
+
+Phase 3完整规模合成工程验收：81项测试通过；24合成会话（12 active/12 random），每会话40训练+10测试+8锚点+12菜单pair双阶段；真人参与者0。重跑使用新输出目录：
+
+```bash
+uv run --no-sync bite label smoke-sized --out outputs/runs/phase3_sized_new_run --sessions 24
+```
+
+旧冻结文件保留，新版本独立存放。查询模型仅服务提问，不替代Phase4 TasteNet或真实效果评估。Phase2仍BLOCKED。

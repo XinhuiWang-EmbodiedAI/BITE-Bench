@@ -1,0 +1,94 @@
+{
+  "version": "synthetic_questionnaire_v1",
+  "mode": "synthetic_only",
+  "is_synthetic": true,
+  "scope": "partial_engineering_fixture_not_formal_protocol",
+  "split_sha256": "24dc7d75c1c4def2fed4d6293c00ff49e0fc97e5f40a85d1660d0564bf0f2a9a",
+  "menus": [
+    {
+      "menu_id": "synthetic_survey_day_1",
+      "meals": [
+        {
+          "meal_id": "synthetic_1_breakfast",
+          "slot": "breakfast",
+          "items": [
+            {
+              "food_id": "demo_f1",
+              "servings": 2.0
+            }
+          ]
+        },
+        {
+          "meal_id": "synthetic_1_lunch",
+          "slot": "lunch",
+          "items": [
+            {
+              "food_id": "demo_f3",
+              "servings": 2.0
+            }
+          ]
+        },
+        {
+          "meal_id": "synthetic_1_dinner",
+          "slot": "dinner",
+          "items": [
+            {
+              "food_id": "demo_f4",
+              "servings": 2.0
+            }
+          ]
+        }
+      ],
+      "profile_id": "balanced",
+      "history_ref": null,
+      "is_synthetic": true
+    },
+    {
+      "menu_id": "synthetic_survey_day_2",
+      "meals": [
+        {
+          "meal_id": "synthetic_2_breakfast",
+          "slot": "breakfast",
+          "items": [
+            {
+              "food_id": "demo_f2",
+              "servings": 2.0
+            }
+          ]
+        },
+        {
+          "meal_id": "synthetic_2_lunch",
+          "slot": "lunch",
+          "items": [
+            {
+              "food_id": "demo_f1",
+              "servings": 2.0
+            }
+          ]
+        },
+        {
+          "meal_id": "synthetic_2_dinner",
+          "slot": "dinner",
+          "items": [
+            {
+              "food_id": "demo_f5",
+              "servings": 2.0
+            }
+          ]
+        }
+      ],
+      "profile_id": "balanced",
+      "history_ref": null,
+      "is_synthetic": true
+    }
+  ],
+  "menu_pairs": [
+    {
+      "menu_pair_id": "synthetic_menu_synthetic_survey_day_1_synthetic_survey_day_2",
+      "menu_a_id": "synthetic_survey_day_1",
+      "menu_b_id": "synthetic_survey_day_2",
+      "split": "test"
+    }
+  ],
+  "sha256": "0d0c575f5c90d77345e1b2be153c24e3e783c1abfa95eb9a215eb481d9f33b48"
+}
