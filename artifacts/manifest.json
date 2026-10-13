@@ -112,6 +112,172 @@
           "sha256": "5f572014d569ae15e10b00010bde96a6a6bbbc2638bc08a86970037ae9a08144"
         }
       ]
+    },
+    {
+      "run_id": "20261013T134250Z_phase2_source_and_review",
+      "status": "PASS",
+      "scope": "engineering_and_provisional_source_smoke_only",
+      "phase_gate_status": "BLOCKED",
+      "reason_codes": [
+        "BLOCKED_BY_NUTRITION_REVIEW",
+        "PARTIAL_SOURCE_ACQUISITION"
+      ],
+      "operation_mode": "hybrid_pilot",
+      "validation_mode": "synthetic_only",
+      "source_data_type": "DATABASE_PROVISIONAL",
+      "code_snapshot_commit": "a0c22cd26b1e71ff3e584480f2493d5c5855f297",
+      "at_run_commit": "56b91fa3ae65d6aebec3eb1abef929e6b7a06c5d",
+      "candidate_food_rows": 48,
+      "candidate_menu_rows": 60,
+      "source_backed_proposals": 1,
+      "formal_food_rows": 0,
+      "approved_rows": 0,
+      "formal_menu_rows": 0,
+      "pending_actions": 49,
+      "actionable_actions": 2,
+      "local_tests_passed": 57,
+      "remote_tests_passed": 57,
+      "model_name": null,
+      "model_digest": null,
+      "seed": 23,
+      "files": [
+        {
+          "path": "data/curated/food_candidate_manifest.csv",
+          "sha256": "4f86fa72616423bb5b5674068bd988ea221125b4ec3bad812107ab24dee5fa5b"
+        },
+        {
+          "path": "data/menus/menu_candidate_manifest.csv",
+          "sha256": "6378a09fc0d45237daeedb4b7aa96495f9674318cf8ade6843fdf08ede24be0d"
+        },
+        {
+          "path": "data/raw/usda/a5eac7a7f88954ffc058bb665df8cba8c3ca5f20c286cc5aebfd698f14c34432.index.json",
+          "sha256": "8a9b7def54ffc2b8ae9e02cf7dc2ada9a540a9b1adec2d1f63df43c6ff613411"
+        },
+        {
+          "path": "data/raw/usda/a5eac7a7f88954ffc058bb665df8cba8c3ca5f20c286cc5aebfd698f14c34432_93d08843b28e5e3a399b33906dfcce924e1128d7c51472fa44bf058d797acb79.json",
+          "sha256": "d626bc669fdb69d386821a50f0078bb59b931d7b7dc2bd66d7bb260a1148924a"
+        },
+        {
+          "path": "data/raw/usda/e7c588e444aaeb1e061650c61c9a1214c993d8b00f49fdb380ee494cab6e8ef0.index.json",
+          "sha256": "7cc30c3dce0360fc0f821107dc29622a2710b9445278ce22b44353eba00f7f89"
+        },
+        {
+          "path": "data/raw/usda/e7c588e444aaeb1e061650c61c9a1214c993d8b00f49fdb380ee494cab6e8ef0_0421f97ff8c3b69130691564348b1bd4952bbc1b6352833c17d164ba8726447a.json",
+          "sha256": "4b9fd8ffe99fcf3fe5206d89e89192e6ec4400d319739acf8580329aea8e82be"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_formal_gates.json",
+          "sha256": "e839ebf89014805ecdff6c610cbfbf1c368d2d04ac539d6e6a8c33657c152f7b"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_key_presence.json",
+          "sha256": "7fc2478d7673f929482d9124aecbe5a80dc6d71711f8c2950284ec647e8bf5f4"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_queue.json",
+          "sha256": "e7afff32065d90a286ff63c8be4ad704c94597b967eef7c09ee12cf47bbc370f"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_sync.txt",
+          "sha256": "d5468139517a420c29edd761cef604cb3707f24f5ce59d0b0d016c0f9c94163e"
+        },
+        {
+          "path": "outputs/remote_evidence/phase2_remote_tests.txt",
+          "sha256": "a34c1abb6bed7fb59aecfbc0cef5c2ca1e5a9197ef6bfebcba7ada9e73c317f4"
+        },
+        {
+          "path": "outputs/reports/phase2_candidates.txt",
+          "sha256": "414f1152aea81fc3fb3d2d1fc201bc422dcd81883734781ddfb17fedceeaba0d"
+        },
+        {
+          "path": "outputs/reports/phase2_formal_food_report_stdout.json",
+          "sha256": "19cbf66d25cc3cfb8b2f30c510b5a93097a9e65ac0148b688d54f5c8a3a2bb43"
+        },
+        {
+          "path": "outputs/reports/phase2_formal_gates.json",
+          "sha256": "ac961cbe87a63cc3feb59fd1abd504e29e94e7b6622cde3372f11777b145edc1"
+        },
+        {
+          "path": "outputs/reports/phase2_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/phase2_live_diagnostic.json",
+          "sha256": "16acae9f9529c88e5b3d10beeb43661f5d0175aab9c1b24df699f4af83672281"
+        },
+        {
+          "path": "outputs/reports/phase2_live_minimal_diagnostic.json",
+          "sha256": "61c32f31a8f56cc617a4527da4c64fef51e0a56f8eefe852270b1eeb029f1720"
+        },
+        {
+          "path": "outputs/reports/phase2_live_post_diagnostic.json",
+          "sha256": "ca1124b57e595b2b1b02ef480c7a3795153061eea512a414bfa479b3a9a44d1f"
+        },
+        {
+          "path": "outputs/reports/phase2_local_failure_missing_import.txt",
+          "sha256": "49d27b963ca2bd64221c9d6611c33c79eb8b1545295ffd91a4081071b01d97b0"
+        },
+        {
+          "path": "outputs/reports/phase2_local_tests.txt",
+          "sha256": "d5edd88a063859500bc01165ece0c7fd77bf41e70f64643274a3f546b2f1b604"
+        },
+        {
+          "path": "outputs/reports/phase2_local_tests_attempt1.txt",
+          "sha256": "5519048b1a1566fc727a44e3d1bf523b5344742c6d5ae190f6a16e2b810be46e"
+        },
+        {
+          "path": "outputs/reports/phase2_local_tests_final.txt",
+          "sha256": "06943f958257935f6805f5ca5c10fb0e0e68170574ef16595e1b9f355c3dc4e9"
+        },
+        {
+          "path": "outputs/reports/phase2_local_tests_final2.txt",
+          "sha256": "fb168ffe6267cac3e47d402fc7e96bce6906bb76b75bea6b0157433f141fbd25"
+        },
+        {
+          "path": "outputs/reports/phase2_local_tests_final3.txt",
+          "sha256": "c102c3a791c1f55f963b670be465e518eb856bbc11468468cca9423acff0fc70"
+        },
+        {
+          "path": "outputs/reports/phase2_queue_export.txt",
+          "sha256": "9fea17111e2f3e748b37bdd424a74af6b21e4cc7f535c2a9c4c988e619d8561e"
+        },
+        {
+          "path": "outputs/reports/phase2_queue_final.json",
+          "sha256": "e7afff32065d90a286ff63c8be4ad704c94597b967eef7c09ee12cf47bbc370f"
+        },
+        {
+          "path": "outputs/reports/phase2_queue_without_key.json",
+          "sha256": "20ea9f60ebde0de64de303ba420dab137aae0d813931996d79392cde9059f754"
+        },
+        {
+          "path": "outputs/reports/phase2_remote_driver.txt",
+          "sha256": "0ddd3a26da17a4c954ea3f3a8126c09cca3a9f4304b8acf45857f3ae3ed02e3f"
+        },
+        {
+          "path": "outputs/reports/phase2_review_ui.txt",
+          "sha256": "2f872258ba91ac3bfbf7dbf72c4adfce4ffd250a6ea598d7706c297f72c21547"
+        },
+        {
+          "path": "outputs/reports/phase2_usda_live_smoke.json",
+          "sha256": "b6fdcd3660d1be788e1704e66c1d38bc390993bb04e9c82de3b29d96de41a11c"
+        },
+        {
+          "path": "outputs/reports/phase2_usda_live_smoke_percent_encoding.json",
+          "sha256": "b6fdcd3660d1be788e1704e66c1d38bc390993bb04e9c82de3b29d96de41a11c"
+        },
+        {
+          "path": "outputs/reports/phase2_usda_live_smoke_post.json",
+          "sha256": "1e33f14db9e15ce347b7546933289309c68bebb8b2724977965db6d67a4c4489"
+        },
+        {
+          "path": "outputs/reports/phase2_usda_live_smoke_retry.json",
+          "sha256": "b6fdcd3660d1be788e1704e66c1d38bc390993bb04e9c82de3b29d96de41a11c"
+        }
+      ]
     }
   ],
   "scope": "document_copy_and_repository_bootstrap_only",
@@ -120,5 +286,6 @@
   "repository_url": "https://github.com/XinhuiWang-EmbodiedAI/BITE-Bench",
   "visibility": "public",
   "experiments_status": "NOT_RUN",
-  "phase_1_status": "PASS"
+  "phase_1_status": "PASS",
+  "phase_2_status": "BLOCKED"
 }

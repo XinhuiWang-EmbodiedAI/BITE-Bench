@@ -8,7 +8,7 @@
 |---|---|---|
 | Phase 0 | PASS | 5060 WSL2：uv sync --locked、bite --help、env doctor、pytest、ruff 均成功 |
 | Phase 1 | PASS | 五个合成食品、两个菜单、两个用户；合同、份量/日聚合、缺失阻断、权重/调整/BT 方向不变性验收通过；本地和远程各 32 项测试 |
-| Phase 2 | NOT_STARTED | 尚未实施 |
+| Phase 2 | BLOCKED | 工程验证通过：本地与 5060 各 57 项测试及 lint；来源提案 1 条，正式食品 0/48、批准 0，正式菜单 0/60 |
 | Phase 3 | NOT_STARTED | 尚未实施 |
 | Phase 4 | NOT_STARTED | 尚未实施 |
 | Phase 5 | NOT_STARTED | 尚未实施 |
@@ -41,7 +41,18 @@
 原始日志位于 outputs/reports/（默认不上传）；manifest 记录哈希。
 仓库现为公开（用户确认）；无密钥或真人原始数据进入本轮提交。
 
-下一步：Phase 2 — USDA 客户端、候选食品清单、单位映射和审核队列；正式食品未经审核不能升级为 approved。
+下一步：保持 Phase 2 正式数据验收阻断，补全来源与人工审核；后续 Phase 3 合成数据工程验证不能替代正式数据验收。
+
+## Phase 2 实际执行结果
+
+- 完成 USDA 检索、内容哈希缓存、请求预算和 429 处理；GET 过滤请求实际返回 400，改用官方 POST JSON 后成功，失败日志保留。
+- 单位与营养 ID 映射、LOQ、冲突与缺失传播、食谱估算、人工审核收据和正式菜单门禁已实现；不自动补齐未知值。
+- 48 个食品身份候选、60 个菜单身份草稿均不代表正式可用数据。实际取得 FDC 170379（Broccoli, raw）来源提案 1 条；份量和蔬果质量仍缺失，多能量口径待审核。
+- 正式食品、批准记录和正式菜单表均只有表头：0/48、0、0/60。未收集参与者或真实偏好；正式 RQ1/RQ2、Qwen 和长期仿真均 NOT_RUN。
+- 审核队列共 49 项（48 个食品与 1 个 API 配置项），当前可行动 2 项。离线审核页面仅导出人工填写的收据，不自动批准或写入正式数据。
+- 最终本地 57 passed in 6.31s，5060 57 passed in 0.30s，两端 lint 通过。一次测试因缺少 json 导入出现 1 failed / 54 passed，修复后重跑通过，日志保留。
+- 两端正式食品、菜单和审核收据严格门禁均返回预期 BLOCKED / exit 2；工程测试通过不能替代这些验收条件。
+- 日志位于 outputs/reports/phase2_* 与 outputs/remote_evidence/phase2_*；来源缓存不进入公开仓库，manifest 记录实际文件哈希。
 
 远程最终诊断：项目 Python 3.12.14；GPU 可见，显存使用快照 871 MiB / 8151 MiB；torch 未安装，Ollama localhost connection refused。该快照不代表模型峰值显存。
 
