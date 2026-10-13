@@ -139,3 +139,29 @@ def test_config_and_duplicate_food_gate(tmp_path):
         load_foods(path, True)
     with pytest.raises(ValueError, match="synthetic"):
         load_foods(Path("data/fixtures/synthetic/foods.csv"))
+
+
+def test_day_sums_multiple_meals_and_portions():
+    foods = {
+        "f1": food(),
+        "f2": food(food_id="f2", serving_g=100, energy_kcal_per_100g=60),
+    }
+    day = DayPlan(
+        menu_id="day",
+        profile_id="balanced",
+        is_synthetic=True,
+        meals=[
+            dict(
+                meal_id="breakfast",
+                slot="breakfast",
+                items=[dict(food_id="f1", servings=1.5)],
+            ),
+            dict(
+                meal_id="dinner", slot="dinner", items=[dict(food_id="f2", servings=2)]
+            ),
+        ],
+    )
+    result = calculate_day(day, foods, True)
+    assert result["totals"]["energy_kcal"] == 480
+    assert result["totals"]["sodium_mg"] == 500
+    assert result["totals"]["fiber_g"] == 15

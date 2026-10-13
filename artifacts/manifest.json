@@ -46,16 +46,12 @@
           "sha256": "fcab9734bf1909a8390c9470e7215834d10bdbc07be7ec1be3e82ba3c1048416"
         },
         {
-          "path": "outputs/reports/phase1_local_tests.txt",
+          "path": "outputs/reports/phase1_local_tests_31.txt",
           "sha256": "40b4011b1d7b6991b7c44f893c1f2bacf3eb6dbf2bf377fd99dd9142150f91d7"
         },
         {
           "path": "outputs/reports/phase1_validation.json",
           "sha256": "d5daffae7c1289f5da3b615201ede3aa32b6097115a5f154b1578ef55b6a06fa"
-        },
-        {
-          "path": "outputs/reports/failures.md",
-          "sha256": "9fa187ea42beb9414bf71f908bbf9d8c0180700005fd2198067d70b3ecb11ac2"
         },
         {
           "path": "uv.lock",
@@ -66,12 +62,63 @@
           "sha256": "ebe94a153cfe77a7baf480075ebbe072b2dc0cb3856657db26f62f4591abec9c"
         }
       ]
+    },
+    {
+      "run_id": "20261013T120647Z_phase0_phase1_wsl",
+      "status": "PASS",
+      "scope": "engineering_acceptance_only",
+      "mode": "synthetic_only",
+      "code_commit": "602aa1c075be5238c62b78a91fefef85e3dc3a87",
+      "code_version": "dirty_9d63ee1da86d",
+      "source_sha256": "9d63ee1da86d6dfbc771e0a759b780523a24d32e58b882c9eb15c92eedfab2f7",
+      "config_sha256": "ebe94a153cfe77a7baf480075ebbe072b2dc0cb3856657db26f62f4591abec9c",
+      "dataset_sha256": "9e4505a18e22b82c74176ae2f765447331ae3387176e8945327c0ead1a8ee3e3",
+      "model_name": null,
+      "model_digest": null,
+      "seed": null,
+      "tests_passed": 32,
+      "host_kind": "WSL2 Linux on RTX 5060 host",
+      "files": [
+        {
+          "path": "outputs/remote_evidence/remote_environment.json",
+          "sha256": "6bee6e371f84288fff05f21e293cedfe1b93c4a1e9a40eeea44c57570cf9e4cd"
+        },
+        {
+          "path": "outputs/remote_evidence/remote_tests_final.txt",
+          "sha256": "8eb9789513a8432971b31f2728d0dc92480190ce23e132a52b8f604515adf546"
+        },
+        {
+          "path": "outputs/remote_evidence/remote_sync.txt",
+          "sha256": "af82d9e2b32ae2dc04f55550395f0acc16175ca4acb8fb1f9f27f01f10374977"
+        },
+        {
+          "path": "outputs/remote_evidence/remote_validation.json",
+          "sha256": "d5daffae7c1289f5da3b615201ede3aa32b6097115a5f154b1578ef55b6a06fa"
+        },
+        {
+          "path": "outputs/reports/phase1_local_tests.txt",
+          "sha256": "c0ae53c2f13546f2b20580aa23c9b13e9f2ad4042fef110d6202ed4832359262"
+        },
+        {
+          "path": "outputs/reports/phase1_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/linux_wheel_provenance.json",
+          "sha256": "0059b84ed04d71bb40a7575fb21e5e6ed88660a4d9e162a1d0db6eaf7c8b26e1"
+        },
+        {
+          "path": "outputs/reports/failures.md",
+          "sha256": "5f572014d569ae15e10b00010bde96a6a6bbbc2638bc08a86970037ae9a08144"
+        }
+      ]
     }
   ],
   "scope": "document_copy_and_repository_bootstrap_only",
-  "phase_0_status": "IN_PROGRESS",
+  "phase_0_status": "PASS",
   "initial_commit": "29c182f",
   "repository_url": "https://github.com/XinhuiWang-EmbodiedAI/BITE-Bench",
   "visibility": "public",
-  "experiments_status": "NOT_RUN"
+  "experiments_status": "NOT_RUN",
+  "phase_1_status": "PASS"
 }

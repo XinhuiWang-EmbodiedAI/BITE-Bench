@@ -20,3 +20,7 @@
 - 根目录原始资料存在用户侧变化；本轮不覆盖、不提交这些修改。docs 规范副本仍为研究依据。
 - 本地 editable 导入发生 ModuleNotFoundError：bitebench.pth 带 macOS hidden 标志，Python site 忽略它；清除本项目安装与缓存 .pth 的 hidden 标志后重新安装/运行恢复。曾试用的 no-editable TOML 字段不受支持，已移除；没有遗留无效设置。
 - 本地最新 pytest：20 passed；环境诊断、数据校验与 lint 已重跑。Phase 1 尚缺完整验收，不能据此标 PASS。
+- 最终采用普通安装重建解决本地 editable 隐藏标志问题；更新源文件后明确 --reinstall-package bitebench，避免旧安装影响测试。
+- 远程大包慢速下载被主动中止；四个官方 PyPI Linux wheel 的哈希与 uv.lock 一致，并在主机复核。按文件路径安装会触发 uv sync 的来源差异；失败尝试保留后，改为包名 + --find-links 的离线安装，再完整锁定同步成功。
+- 通过 stdin 传送 Bash 验收脚本避免 Windows/WSL 嵌套 shell PATH 转义问题。
+- 目标环境最终：32 passed in 0.32s，ruff 通过，GPU 映射有效。Phase 0/1 PASS；正式人类指标和 Qwen 推理均 NOT_RUN。
