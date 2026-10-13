@@ -1,0 +1,4 @@
+version: development_v1
+operation_mode: hybrid_pilot
+validation_mode: synthetic_only
+backend: mock

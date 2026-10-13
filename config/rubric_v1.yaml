@@ -1,0 +1,55 @@
+version: rubric_v1
+score_range: [0, 100]
+scoring_level: day
+profiles:
+  balanced:
+    taste: 0.35
+    nutrition: 0.30
+    fitness: 0.20
+    long_term: 0.15
+  hedonist:
+    taste: 0.60
+    nutrition: 0.15
+    fitness: 0.10
+    long_term: 0.15
+  fitness:
+    taste: 0.20
+    nutrition: 0.25
+    fitness: 0.40
+    long_term: 0.15
+  long_termist:
+    taste: 0.25
+    nutrition: 0.30
+    fitness: 0.15
+    long_term: 0.30
+reference_goals:
+  # 虚拟成人示例，仅用于 benchmark；不是给真人设定的营养处方
+  energy_target_kcal: 2000
+  protein_target_g: 90
+  fiber_target_g: 25
+  sodium_upper_mg: 2000
+  fruit_veg_target_g: 400
+  energy_tolerance_fraction: 0.25
+nutrition_penalty_weights:
+  low_fiber: 35
+  high_sodium: 35
+  low_fruit_veg: 30
+fitness_penalty_weights:
+  energy_target_deviation: 60
+  protein_shortfall: 40
+long_term:
+  warmup_score: 75
+  repetition_penalty_max: 50
+  category_gap_penalty_max: 50
+  target_unique_categories_7d: 6
+agent_adjustment_bounds: [-10, 10]
+soft_violation_lambda: 0.0   # v1 启动阶段未启用附加软惩罚，避免重复扣分
+hard_constraints:
+  reject_unknown_required_nutrients: true
+  reject_user_excluded_foods: true
+required_nutrients:
+  - energy_kcal
+  - protein_g
+  - fiber_g
+  - sodium_mg
+  - fruit_veg_g

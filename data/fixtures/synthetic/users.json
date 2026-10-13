@@ -1,0 +1,10 @@
+[
+  {
+    "user_id": "demo_u1",
+    "is_synthetic": true
+  },
+  {
+    "user_id": "demo_u2",
+    "is_synthetic": true
+  }
+]

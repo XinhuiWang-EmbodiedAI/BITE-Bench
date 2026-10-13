@@ -1,0 +1,38 @@
+[
+  {
+    "menu_id": "demo_day_01",
+    "meals": [
+      {
+        "meal_id": "demo_meal_1",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "demo_f1",
+            "servings": 1.0
+          }
+        ]
+      }
+    ],
+    "profile_id": "balanced",
+    "history_ref": null,
+    "is_synthetic": true
+  },
+  {
+    "menu_id": "demo_day_02",
+    "meals": [
+      {
+        "meal_id": "demo_meal_2",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "demo_f2",
+            "servings": 1.0
+          }
+        ]
+      }
+    ],
+    "profile_id": "balanced",
+    "history_ref": null,
+    "is_synthetic": true
+  }
+]

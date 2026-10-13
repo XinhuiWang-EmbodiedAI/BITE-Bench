@@ -1,0 +1,44 @@
+[project]
+name = "bitebench"
+version = "0.1.0"
+description = "Auditable personalized taste and dietary utility benchmark"
+readme = "README.md"
+authors = [
+    { name = "Xinhui", email = "xinhuiwangahu@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "pydantic>=2",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "typer>=0.27.3",
+]
+
+[project.scripts]
+bite = "bitebench.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.0",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "PLW1510"]

@@ -1,0 +1,26 @@
+version: automation_v1
+operation_mode: hybrid_pilot  # synthetic_only | hybrid_pilot | full_study
+execution_policy:
+  continue_independent_tasks_when_blocked: true
+  allow_cpu_fallback: true
+  allow_synthetic_smoke: true
+  allow_synthetic_data_in_human_results: false
+  request_user_on_risk_only: true
+  modify_system_drivers: false
+  expose_public_ports: false
+  publish_human_data: false
+food_review:
+  source_lookup_automatic: true
+  unit_conversion_automatic: true
+  create_review_queue: true
+  require_approval_for_formal_dataset: true
+  risk_buckets: [low, medium, high]
+human_study:
+  collect_real_human_responses: false # 只有明确启动合规采集时才设 true
+  anonymize_ids: true
+  do_not_train_on_heldout: true
+  never_simulate_human_provenance: true
+reporting:
+  require_provenance: true
+  separate_simulation_from_human: true
+  preserve_all_failures: true

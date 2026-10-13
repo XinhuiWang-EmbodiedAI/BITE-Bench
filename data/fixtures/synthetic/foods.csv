@@ -1,0 +1,6 @@
+food_id,name_zh,name_en,primary_category,recipe_variant,serving_g,energy_kcal_per_100g,protein_g_per_100g,fat_g_per_100g,carbs_g_per_100g,fiber_g_per_100g,sodium_mg_per_100g,fruit_veg_g_per_serving,source_system,source_record_id,source_url,retrieved_at,data_quality,image_path,image_license,is_synthetic
+demo_f1,合成食物1,,staple,synthetic_fixture_v1,200.0,120.0,5.0,2.0,20.0,3.0,100.0,100.0,synthetic_fixture,,,,unknown,,,True
+demo_f2,合成食物2,,meat_egg,synthetic_fixture_v1,200.0,120.0,5.0,2.0,20.0,3.0,100.0,100.0,synthetic_fixture,,,,unknown,,,True
+demo_f3,合成食物3,,vegetable_legume,synthetic_fixture_v1,200.0,120.0,5.0,2.0,20.0,3.0,100.0,100.0,synthetic_fixture,,,,unknown,,,True
+demo_f4,合成食物4,,fruit,synthetic_fixture_v1,200.0,120.0,5.0,2.0,20.0,3.0,100.0,100.0,synthetic_fixture,,,,unknown,,,True
+demo_f5,合成食物5,,beverage,synthetic_fixture_v1,200.0,120.0,5.0,2.0,20.0,3.0,100.0,100.0,synthetic_fixture,,,,unknown,,,True
