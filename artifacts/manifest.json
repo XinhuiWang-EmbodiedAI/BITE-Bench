@@ -3,7 +3,7 @@
   "operation_mode": "hybrid_pilot",
   "initial_validation_mode": "synthetic_only",
   "stage": "repository_bootstrap",
-  "status": "IN_PROGRESS",
+  "status": "PASS",
   "documents": [
     {
       "source": "BITE_研究方法与实验设计.md",
@@ -21,5 +21,11 @@
       "sha256": "12a06d6be2ff4d2b2d7abb671dacb2805dd6d6a39e897f691e5328015a8712a1"
     }
   ],
-  "runs": []
+  "runs": [],
+  "scope": "document_copy_and_repository_bootstrap_only",
+  "phase_0_status": "IN_PROGRESS",
+  "initial_commit": "29c182f",
+  "repository_url": "https://github.com/XinhuiWang-EmbodiedAI/BITE-Bench",
+  "visibility": "private",
+  "experiments_status": "NOT_RUN"
 }

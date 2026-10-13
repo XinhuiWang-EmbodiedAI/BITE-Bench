@@ -21,5 +21,7 @@
 
 本轮未采集食品、偏好或菜单评价，未运行模型、测试、模拟或正式研究分析。
 正式 RQ1/RQ2：NOT_RUN。无可报告性能数字或 GPU 测量。
-GitHub CLI 已安装，但尚未登录；GitHub connector 已识别账户，推送状态待实际确认。
-下一步：完成远程仓库同步；后续获指示后从 Phase 0 环境侦测与验收继续。
+GitHub 私有仓库已创建：https://github.com/XinhuiWang-EmbodiedAI/BITE-Bench 。
+已通过现有 SSH 认证执行 git push -u origin main，初始提交 29c182f 已推送成功。
+文档副本逐字节与原始资料一致，并已保存 SHA256；本轮未执行 pytest。
+下一步：后续获指示后从 Phase 0 环境侦测与验收继续。
