@@ -112,3 +112,12 @@
 - 日志 outputs/reports/phase3_active_sized_*；旧冻结复核 phase3_prior_freezes_audit.json；新run纳入manifest。评分公式、M0–M4、正式协议及真实数据均未修改。未下载LLM、未提交或推送Git。
 - Phase 3 合成工程验收已通过；整体仍 IN_PROGRESS，因为正式数据门槛、真人采集授权及真实问卷验收尚未完成。Phase 2继续BLOCKED。
 - 下一步可进入Phase 4合成TasteNet基线、特征模型、个性化、训练锚点校准和冻结测试指标工程；主动查询模型不替代正式模型验收。
+
+## 2026-10-14 — 两端合并与同步验收
+
+- 合并父提交 afac467（浏览器离线采集）和 732e623（5060 Phase 3 研究问卷）；合并代码提交 8e7b93c。四处共享 README/状态/决策/manifest 冲突保留双方追加内容和全部独立 run，不覆盖任何历史验收。
+- 两套模块代码原样保留；浏览器仍使用自己的16食品固定题库，研究 CLI 使用独立48食品/60菜单夹具和主动抽题。此次只同步源码与文档，不自动把浏览器接到 CLI 后端，也不混用数据库或导出。
+- 本地 macOS：104 passed（另5个 subtests）、ruff 通过；5060 WSL2：104 passed（另5个 subtests）、ruff、bite --help 与浏览器题库 validate 均通过。先同步代码，再在真实 WSL 项目目录执行验收。
+- 原始两端提交已保留 codex/backup-local-20261014-afac467 与 codex/backup-wsl-20261014-732e623 分支；Git bundle 和实测日志位于 outputs/sync/20261014/，manifest 记录 SHA256。首次 /tmp bundle 取回失败，改用仓库 ignored 输出目录；完整 bundle 传输较慢，改用基于共同父提交的增量 bundle。
+- 原三份研究规范、rubric、已有冻结数据和原回答保持原样；真实研究仍无数据，Phase 2 BLOCKED、Phase 3 IN_PROGRESS。真人采集继续关闭，Phase 4–11 未开展。
+- 本机根目录已有研究资料改动与预览文件不加入同步提交；5060 的 D:\BITE-Bench 旧副本未覆盖。开发同步目标为 /home/adminhh/projects/bite-bench。

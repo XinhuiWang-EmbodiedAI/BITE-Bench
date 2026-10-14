@@ -633,6 +633,87 @@
           "sha256": "f699a747988a6204600ab5990e0c854045257887efd50602f312285f62a094b6"
         }
       ]
+    },
+    {
+      "run_id": "20261014T083416Z_merge_sync_synthetic",
+      "status": "PASS",
+      "scope": "combined source merge and synthetic regression acceptance only",
+      "mode": "synthetic_only",
+      "code_commit": "8e7b93c831436238f5e2b897f2e8c219e6d32936",
+      "merged_parents": [
+        "afac4675acb993faf46622c5d6d11b3708bd56a1",
+        "732e6235fda0eeb1e9cd359dc0eb24f3e84e74e1"
+      ],
+      "source_sha256": "bdd3510da4c10a62c4684149c66570cc387a61e90e81dbaceaa3d627a0f3c340",
+      "source_hash_scope": "sorted src/tests/apps code paths and per-file SHA256; excludes runtime",
+      "dataset_sha256": "18222397ffd48061d78f33f59e692c064d5ab6674bce208b3e012884198dd118",
+      "dataset_hash_scope": "synthetic fixtures and synthetic frozen splits only",
+      "config_sha256": "1bcfd267fc875f89fb0117485451e53f00a78c942386b45d1c4747a46d18745d",
+      "model_name": null,
+      "model_digest": null,
+      "seed": null,
+      "tests_by_host": {
+        "macOS": 104,
+        "WSL2_on_5060": 104
+      },
+      "real_participants": 0,
+      "formal_collection_enabled": false,
+      "phase_2_status": "BLOCKED",
+      "phase_3_status": "IN_PROGRESS",
+      "source_modules_preserved": [
+        "apps/bite-collect",
+        "src/bitebench/labeling"
+      ],
+      "files": [
+        {
+          "path": "outputs/sync/20261014/local-afac467.bundle",
+          "sha256": "78769648052336e4acff82dcf0099efc88cf07ccec23d42105defde99104e72a"
+        },
+        {
+          "path": "outputs/sync/20261014/local-lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/sync/20261014/local-sync.txt",
+          "sha256": "2cb34dda072ad8e3f8793595e0826e376a7b107176928e93f99b300e61d2a74b"
+        },
+        {
+          "path": "outputs/sync/20261014/local-tests.txt",
+          "sha256": "b5c2186403302bbfe13b1977d556e73b11d6b1478cff959bdce743cbccdd6ce9"
+        },
+        {
+          "path": "outputs/sync/20261014/merged-code.bundle",
+          "sha256": "7937cd13c0b325937316024c9b91b0b5900c36675844a2fb029faa074026ac9c"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-732e623.bundle",
+          "sha256": "cee17643e76883b95f1929fe26d984f27b752b7df7a54f75f880766a53b4507c"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-bank-validation.json",
+          "sha256": "6f93bed57130eb11da51e9493e669052eb43d0831f99aa950d8822984f1ee24c"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-cli-help.txt",
+          "sha256": "9630f10077a2577e33ee5990d2af8872c30fd2e7cc3836f98c6f54e6c413f982"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-sync-driver.txt",
+          "sha256": "ff0dbd49dc17fe280495894916367a92fa12f443a3fba59ad91a2357483c881f"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-sync.txt",
+          "sha256": "99cba72a9bf4257f29c295d55c78ab4e2f88bd5cd16abbb9c376dd7705fec805"
+        },
+        {
+          "path": "outputs/sync/20261014/wsl-tests.txt",
+          "sha256": "283b3d3a82cb3ce9419b1c91e9a0fabcffd27f1b0d8bf570ac48bfa02b46656c"
+        }
+      ]
     }
   ],
   "scope": "document_copy_and_repository_bootstrap_only",
