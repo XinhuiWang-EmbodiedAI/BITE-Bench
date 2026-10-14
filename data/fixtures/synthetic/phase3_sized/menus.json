@@ -1,0 +1,2222 @@
+[
+  {
+    "menu_id": "synthetic_M001",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M001_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F001",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M001_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F002",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M001_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M002",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M002_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F002",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M002_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F009",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M002_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F014",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M003",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M003_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M003_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F016",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M003_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F025",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M004",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M004_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F004",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M004_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F023",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M004_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F036",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M005",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M005_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F005",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M005_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F030",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M005_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F047",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M006",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M006_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F006",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M006_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F037",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M006_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M007",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M007_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F007",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M007_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F044",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M007_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F021",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M008",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M008_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F008",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M008_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M008_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F032",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M009",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M009_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F009",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M009_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M009_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F043",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M010",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M010_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M010_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F017",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M010_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F006",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M011",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M011_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F011",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M011_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F024",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M011_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F017",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M012",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M012_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F012",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M012_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F031",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M012_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F028",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M013",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M013_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F013",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M013_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F038",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M013_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F039",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M014",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M014_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F014",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M014_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F045",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M014_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F002",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M015",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M015_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F015",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M015_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F004",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M015_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F013",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M016",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M016_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F016",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M016_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F011",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M016_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F024",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M017",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M017_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F017",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M017_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F018",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M017_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F035",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M018",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M018_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F018",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M018_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F025",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M018_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F046",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M019",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M019_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F019",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M019_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F032",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M019_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F009",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M020",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M020_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F020",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M020_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F039",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M020_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F020",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M021",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M021_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F021",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M021_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F046",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M021_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F031",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M022",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M022_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F022",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M022_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F005",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M022_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F042",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M023",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M023_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F023",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M023_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F012",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M023_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F005",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M024",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M024_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F024",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M024_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F019",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M024_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F016",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M025",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M025_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F025",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M025_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F026",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M025_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F027",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M026",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M026_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F026",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M026_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F033",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M026_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F038",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M027",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M027_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F027",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M027_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F040",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M027_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F001",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M028",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M028_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F028",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M028_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F047",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M028_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F012",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M029",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M029_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F029",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M029_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F006",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M029_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F023",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M030",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M030_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F030",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M030_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F013",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M030_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F034",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M031",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M031_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F031",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M031_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F020",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M031_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F045",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M032",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M032_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F032",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M032_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F027",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M032_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F008",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M033",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M033_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F033",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M033_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F034",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M033_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F019",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M034",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M034_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F034",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M034_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F041",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M034_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F030",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M035",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M035_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F035",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M035_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F048",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M035_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F041",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M036",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M036_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F036",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M036_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F007",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M036_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F004",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M037",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M037_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F037",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M037_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F014",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M037_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F015",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M038",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M038_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F038",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M038_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F021",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M038_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F026",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M039",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M039_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F039",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M039_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F028",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M039_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F037",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M040",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M040_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F040",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M040_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F035",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M040_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F048",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M041",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M041_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F041",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M041_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F042",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M041_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F011",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M042",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M042_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F042",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M042_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F001",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M042_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F022",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M043",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M043_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F043",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M043_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F008",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M043_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F033",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M044",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M044_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F044",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M044_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F015",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M044_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F044",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M045",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M045_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F045",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M045_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F022",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M045_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F007",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M046",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M046_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F046",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M046_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F029",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M046_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F018",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M047",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M047_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F047",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M047_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F036",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M047_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F029",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M048",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M048_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F048",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M048_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F043",
+            "servings": 1.0
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M048_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F040",
+            "servings": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M049",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M049_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F001",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M049_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F002",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M049_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M050",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M050_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F002",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M050_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F009",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M050_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F014",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M051",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M051_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M051_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F016",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M051_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F025",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M052",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M052_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F004",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M052_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F023",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M052_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F036",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M053",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M053_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F005",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M053_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F030",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M053_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F047",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M054",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M054_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F006",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M054_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F037",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M054_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M055",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M055_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F007",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M055_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F044",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M055_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F021",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M056",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M056_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F008",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M056_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F003",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M056_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F032",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M057",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M057_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F009",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M057_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M057_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F043",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M058",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M058_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F010",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M058_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F017",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M058_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F006",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M059",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M059_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F011",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M059_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F024",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M059_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F017",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_M060",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_M060_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "synthetic_F012",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M060_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "synthetic_F031",
+            "servings": 1.5
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_M060_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "synthetic_F028",
+            "servings": 1.5
+          }
+        ]
+      }
+    ]
+  }
+]

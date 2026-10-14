@@ -453,6 +453,186 @@
           "sha256": "b146679ef5f369a422d7c33a37f8b0d1201d22f26a7033b8b97f666a628c588d"
         }
       ]
+    },
+    {
+      "run_id": "20261013T155118Z_phase3_synthetic_storage",
+      "status": "PASS",
+      "phase_gate_status": "IN_PROGRESS",
+      "scope": "synthetic_split_and_storage_subsystem_only",
+      "mode": "synthetic_only",
+      "is_synthetic": true,
+      "code_commit": "60a84765d7f756152ad3ce585c387ad00823363e",
+      "code_worktree": "dirty",
+      "source_sha256": "ab817df0dab86ab83cc3e264a5d390135f2e0de94b26d7b3befd0d014a2d4fac",
+      "config_sha256": "ebe94a153cfe77a7baf480075ebbe072b2dc0cb3856657db26f62f4591abec9c",
+      "dataset_sha256": "80c327c3e638507c4836bf4a483f15bb87f9897538a64f81c33f81b90b738b85",
+      "split_sha256": "24dc7d75c1c4def2fed4d6293c00ff49e0fc97e5f40a85d1660d0564bf0f2a9a",
+      "seed": 23,
+      "model_name": null,
+      "model_digest": null,
+      "tests_passed": 66,
+      "files": [
+        {
+          "path": "data/splits/synthetic/phase3_v1.json",
+          "sha256": "d8227269cb02a4987e1ae8e19035507dad1da323140bdeb7b8bd8d5a1fc58343"
+        },
+        {
+          "path": "outputs/reports/phase3_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/phase3_tests.txt",
+          "sha256": "c0454ff5e8b2315284543af1b92e4979a1cc2749edf009d01e72e09a13b314e9"
+        },
+        {
+          "path": "outputs/reports/phase3_split_freeze.json",
+          "sha256": "f875864ffd11b55e417778fdf7c3c6396ccdde71736ca636d107b163c419f2e0"
+        },
+        {
+          "path": "outputs/reports/phase3_split_audit.json",
+          "sha256": "26cf1f6642ff49a6a71251f6b249f81f7fa15c96d5d7b664920b8c6c4fed1ecd"
+        },
+        {
+          "path": "outputs/reports/phase3_storage_smoke.json",
+          "sha256": "4a8880fa0798c5823592097aa1453b76d16d7ef00047497cbeef3c3f281c7f8f"
+        }
+      ]
+    },
+    {
+      "run_id": "20261013T160144Z_phase3_questionnaire",
+      "status": "PASS",
+      "phase_gate_status": "IN_PROGRESS",
+      "scope": "synthetic_questionnaire_terminal_subsystem_only",
+      "mode": "synthetic_only",
+      "is_synthetic": true,
+      "code_commit": "60a84765d7f756152ad3ce585c387ad00823363e",
+      "code_worktree": "dirty",
+      "source_sha256": "a6bb2bdc667b3092de7375aed238dddda9c57dd90498f7602a4694e5529da67f",
+      "source_hash_scope": "src_and_tests_path_and_bytes",
+      "config_sha256": "ae8029f70be3a080aaec80fac41224c79e77a5387e2e9693090e369f885fa79c",
+      "config_hash_scope": "config_yaml_path_and_bytes",
+      "dataset_sha256": "80c327c3e638507c4836bf4a483f15bb87f9897538a64f81c33f81b90b738b85",
+      "questionnaire_sha256": "0d0c575f5c90d77345e1b2be153c24e3e783c1abfa95eb9a215eb481d9f33b48",
+      "seed": 23,
+      "tests_passed": 74,
+      "model_name": null,
+      "model_digest": null,
+      "formal_phase_2": "BLOCKED",
+      "human_collection_enabled": false,
+      "files": [
+        {
+          "path": "data/splits/synthetic/phase3_v1.json",
+          "sha256": "d8227269cb02a4987e1ae8e19035507dad1da323140bdeb7b8bd8d5a1fc58343"
+        },
+        {
+          "path": "data/splits/synthetic/questionnaire_v1.json",
+          "sha256": "ba53cfafae356a99cd726d7901307be927e5c0956f5690a9bec44ba28414af2d"
+        },
+        {
+          "path": "data/fixtures/synthetic/questionnaire_menus.json",
+          "sha256": "0219f3a10821e7dafbb9a36812c8b60ca155c9ac00e54ac383ada0b3d667d0ed"
+        },
+        {
+          "path": "outputs/reports/phase3_questionnaire_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/phase3_questionnaire_tests.txt",
+          "sha256": "f024adfad26832aff211b6ce5befc162bfe5d6d53270c852c8559d5b00a97beb"
+        },
+        {
+          "path": "outputs/reports/phase3_questionnaire_freeze.json",
+          "sha256": "b183e9f4b4611f8f92a855b7469214604e16c7a438215db85e7ec0e040d35820"
+        },
+        {
+          "path": "outputs/reports/phase3_questionnaire_split_audit.json",
+          "sha256": "26cf1f6642ff49a6a71251f6b249f81f7fa15c96d5d7b664920b8c6c4fed1ecd"
+        },
+        {
+          "path": "outputs/reports/phase3_questionnaire_ui_smoke.json",
+          "sha256": "ed957c6a82f2025c48415c71100f18e798632d19e11aebed6ee113c2a16a20f0"
+        }
+      ]
+    },
+    {
+      "run_id": "20261013T161544Z_phase3_active_sized",
+      "status": "PASS",
+      "phase_gate_status": "IN_PROGRESS",
+      "scope": "protocol_sized_synthetic_query_and_questionnaire_engineering_only",
+      "mode": "synthetic_only",
+      "is_synthetic": true,
+      "real_participants": 0,
+      "synthetic_sessions": 24,
+      "tests_passed": 81,
+      "code_commit": "60a84765d7f756152ad3ce585c387ad00823363e",
+      "code_worktree": "dirty",
+      "source_sha256": "5ae45229a3c3187de6340ec5d948e07470763c379233d79e2b41f910db8f0088",
+      "source_hash_scope": "src_and_tests_path_and_bytes",
+      "config_sha256": "ae8029f70be3a080aaec80fac41224c79e77a5387e2e9693090e369f885fa79c",
+      "config_hash_scope": "config_yaml_path_and_bytes",
+      "dataset_sha256": "6df79a1bfc9af2a59b15dc8edf21bb00f13eb82fc5b1f838913c821f6ead1921",
+      "split_sha256": "f0e368b419fa0c28ae34bd73067cd2363d042e34a80d05b8f092607db79ddc22",
+      "questionnaire_sha256": "8e18a9603863c1849854ad72b85175aaf858041a40dea55fc0ca7da2c572a689",
+      "seed": 17,
+      "split_seed": 23,
+      "model_name": "synthetic_bt_query_v1",
+      "model_digest": null,
+      "model_state_location": "queries table in run synthetic/questionnaire.sqlite",
+      "human_collection_enabled": false,
+      "files": [
+        {
+          "path": "data/splits/synthetic/phase3_sized_v1.json",
+          "sha256": "99412cb5864d37df5919a66f87ab07fc9d21f8266415fae668dfdfd4a60ed96b"
+        },
+        {
+          "path": "data/splits/synthetic/questionnaire_sized_v1.json",
+          "sha256": "9f9068733ac58d0a18630a35aab501e1ba42cec8c05967da2f481d4ac25c5ccb"
+        },
+        {
+          "path": "data/fixtures/synthetic/phase3_sized/foods.csv",
+          "sha256": "0e35246e93d18e5a2b090e5704cbcad9f8649db87caaec873dcb932023730af9"
+        },
+        {
+          "path": "data/fixtures/synthetic/phase3_sized/menus.json",
+          "sha256": "16207ad47994801e81edebe9444bfddcb4562f84aad91e4b67266757c8f98a57"
+        },
+        {
+          "path": "outputs/reports/phase3_active_sized_lint.txt",
+          "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+        },
+        {
+          "path": "outputs/reports/phase3_active_sized_tests.txt",
+          "sha256": "ebee354d71862a14bdf731379ca0d597e411e513a7bc7be084dad40d7ee14e44"
+        },
+        {
+          "path": "outputs/reports/phase3_active_sized_smoke.json",
+          "sha256": "ac928cc85496b792f8dbf1b455605a89422a4e722b33d98e41496ff5e9234955"
+        },
+        {
+          "path": "outputs/reports/phase3_prior_freezes_audit.json",
+          "sha256": "8c83ce586a3243905cc998513ccc9d493ca0523a6b9a1b87f9737dce16f71ec8"
+        },
+        {
+          "path": "outputs/runs/20261013T161544Z_phase3_active_sized/metrics.json",
+          "sha256": "e2ac145768f768c53a8c522badfe2978ed7828b7d44f0859d24061eae63afdfb"
+        },
+        {
+          "path": "outputs/runs/20261013T161544Z_phase3_active_sized/synthetic/anchors.csv",
+          "sha256": "207b0e9bf129ab3ddf90dd2a5a3e7639d04f354c12a985bf1fe99234a46bc239"
+        },
+        {
+          "path": "outputs/runs/20261013T161544Z_phase3_active_sized/synthetic/menus.csv",
+          "sha256": "2752af277404660997a4d829e9ea57b02bc3192b5ee99f299d76af76171d23a0"
+        },
+        {
+          "path": "outputs/runs/20261013T161544Z_phase3_active_sized/synthetic/test.csv",
+          "sha256": "f9aa4daa5d924daf228f39ab714f9b3a2108cdcd2031c55bfad562af953e0b36"
+        },
+        {
+          "path": "outputs/runs/20261013T161544Z_phase3_active_sized/synthetic/train.csv",
+          "sha256": "f699a747988a6204600ab5990e0c854045257887efd50602f312285f62a094b6"
+        }
+      ]
     }
   ],
   "scope": "document_copy_and_repository_bootstrap_only",
@@ -462,5 +642,6 @@
   "visibility": "public",
   "experiments_status": "NOT_RUN",
   "phase_1_status": "PASS",
-  "phase_2_status": "BLOCKED"
+  "phase_2_status": "BLOCKED",
+  "phase_3_status": "IN_PROGRESS"
 }

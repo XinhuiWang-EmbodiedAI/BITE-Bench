@@ -37,3 +37,32 @@ USDA 原生 nutrient ID：1003 蛋白质、1004 脂肪、1005 碳水、1079 纤�
 真实搜索使用官方支持的 POST JSON；详情使用 GET。实际 GET 过滤试验曾返回 400，日志已保留；不将其写成成功。HTTP 429 尊重 Retry-After，长等待交给队列，所有尝试受预算约束。缓存可无密钥重放，但哈希错误会阻断。
 
 个人 API Key 仅保存在本地 .env 或环境变量，自动脱敏，不能提交仓库。DEMO_KEY 仅用于少量真实接口 smoke；DEMO_KEY 的真实数据库响应不等于合成食品，也不等于人工已审核。
+
+
+## Phase 3 synthetic storage
+
+Split: data/splits/synthetic/phase3_v1.json contains snapshot hash, heldout/anchor IDs and disjoint train/test pairs; no answers. Immutable versioned fixture, not formal protocol.
+
+SQLite tables: metadata, users, displays, answers. Unique answer key: (user_id,pair_id,stage). Stage is train/test. Actual displayed order and seed retained. Anonymous UUID and hashed withdrawal token; withdrawal cascades to displays and answers but not prior exports.
+
+Export defaults to train; test requires explicit selection. tie/skip remain distinct. Human collection, anchor ratings and menu dual-stage storage are not implemented in this increment.
+
+
+## Phase 3 questionnaire extension
+
+- `questionnaire_menus.json`: two separate synthetic breakfast/lunch/dinner fixtures; not approved food data or clinical recommendations.
+- `questionnaire_v1.json`: immutable menu snapshots and test pair IDs, bound to the existing food split hash. Does not contain choice labels.
+- `AnchorRating`: user_id, food_id, rating_0_10 [0,10], timezone-aware timestamp, is_synthetic=true; only frozen training anchors allowed.
+- `MenuChoice`: user_id, menu_pair_id, menu_a_id/menu_b_id (actual left/right), stage, choice left/right/tie/skip, displayed_nutrition, order_randomization (seed), timestamp, is_synthetic=true. Stage hidden precedes visible for all pairs.
+- New SQLite tables anchors, menu_displays, menu_answers, queries, notices have user foreign keys with cascade deletion. Menu answer unique key: (user_id,menu_pair_id,stage). Summary reports menu_choice_records separately from independent_menu_pairs.
+- Query audit includes policy_version, candidate_pair_ids, candidate_pool_sha256, selected_pair_id and nullable model_state_sha256. Only random scheduling is integrated; no fitted model is falsely reported.
+- Export-survey anchors/menus produces explicit synthetic CSV files. These are demo data; never HUMAN observations.
+
+
+## Protocol-sized synthetic fixture and active query audit
+
+- phase3_sized_v1.json: 48 synthetic IDs, 8 cold foods, 8 training anchors, 20 coverage pairs, a larger frozen training candidate pool (only 20 are selected per session), and 10 frozen tests (5 known/5 cold). training_budget=40 and adaptive_budget=20. assignment_order contains a frozen shuffle of 12 active and 12 random slots.
+- questionnaire_sized_v1.json: 60 embedded synthetic three-meal menus; development=36, final=24; 12 frozen final menu pairs. No source-backed food approvals or human labels.
+- QueryModel synthetic_bt_query_v1: L2=1 BT utility differences, train-only per-session fit. Tie/skip excluded from likelihood and retained in training hash and counts. Zero-label prior is explicit. No calibrated absolute food score.
+- Trace adds sequence, selected_probability, full model_state and model_state_sha256; state records training_data_sha256, fitted_binary_records, excluded_tie_skip and known-food coefficients. Used model record count equals query sequence minus one. Probability is internal model output, not validated human confidence.
+- assignments table binds synthetic user IDs to frozen group slots. Allocation cursor does not reset when a session is withdrawn. All rows remain synthetic and are segregated from data/private.

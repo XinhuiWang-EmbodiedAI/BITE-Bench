@@ -1,0 +1,83 @@
+{
+  "version": "synthetic_split_v1",
+  "mode": "synthetic_only",
+  "is_synthetic": true,
+  "scope": "partial_engineering_fixture_not_formal_protocol",
+  "seed": 23,
+  "food_ids": [
+    "demo_f1",
+    "demo_f2",
+    "demo_f3",
+    "demo_f4",
+    "demo_f5"
+  ],
+  "heldout_food_ids": [
+    "demo_f5"
+  ],
+  "anchor_food_ids": [
+    "demo_f1",
+    "demo_f2",
+    "demo_f3",
+    "demo_f4"
+  ],
+  "pairs": [
+    {
+      "pair_id": "synthetic_train_demo_f3_demo_f4",
+      "left_food_id": "demo_f3",
+      "right_food_id": "demo_f4",
+      "split": "train",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_train_demo_f2_demo_f4",
+      "left_food_id": "demo_f2",
+      "right_food_id": "demo_f4",
+      "split": "train",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_train_demo_f1_demo_f2",
+      "left_food_id": "demo_f1",
+      "right_food_id": "demo_f2",
+      "split": "train",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_train_demo_f1_demo_f4",
+      "left_food_id": "demo_f1",
+      "right_food_id": "demo_f4",
+      "split": "train",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_test_demo_f2_demo_f3",
+      "left_food_id": "demo_f2",
+      "right_food_id": "demo_f3",
+      "split": "test",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_test_demo_f1_demo_f3",
+      "left_food_id": "demo_f1",
+      "right_food_id": "demo_f3",
+      "split": "test",
+      "stratum": "known_food"
+    },
+    {
+      "pair_id": "synthetic_test_demo_f1_demo_f5",
+      "left_food_id": "demo_f1",
+      "right_food_id": "demo_f5",
+      "split": "test",
+      "stratum": "cold_food"
+    },
+    {
+      "pair_id": "synthetic_test_demo_f2_demo_f5",
+      "left_food_id": "demo_f2",
+      "right_food_id": "demo_f5",
+      "split": "test",
+      "stratum": "cold_food"
+    }
+  ],
+  "dataset_sha256": "80c327c3e638507c4836bf4a483f15bb87f9897538a64f81c33f81b90b738b85",
+  "sha256": "24dc7d75c1c4def2fed4d6293c00ff49e0fc97e5f40a85d1660d0564bf0f2a9a"
+}

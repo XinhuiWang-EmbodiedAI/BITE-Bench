@@ -1,6 +1,6 @@
 # BITE-Bench Run Status
 
-更新：2026-10-13（Asia/Shanghai）。用户已授权开始实验并连接 5060；默认 hybrid_pilot，首先 synthetic_only。
+更新：2026-10-14（Asia/Shanghai）。用户已授权开始实验并连接 5060；默认 hybrid_pilot，首先 synthetic_only。
 
 研究约束：真实偏好与合成数据隔离；营养事实来自可追溯确定性输入；缺失值保持 null；审核与最终测试冻结不可绕过。正式 RQ1/RQ2 尚无结果。
 
@@ -9,7 +9,7 @@
 | Phase 0 | PASS | 5060 WSL2：uv sync --locked、bite --help、env doctor、pytest、ruff 均成功 |
 | Phase 1 | PASS | 五个合成食品、两个菜单、两个用户；合同、份量/日聚合、缺失阻断、权重/调整/BT 方向不变性验收通过；本地和远程各 32 项测试 |
 | Phase 2 | BLOCKED | 工程验证通过：本地与 5060 各 57 项测试及 lint；来源提案 1 条，正式食品 0/48、批准 0，正式菜单 0/60 |
-| Phase 3 | IN_PROGRESS | 独立 apps/bite-collect taste 采集模块合成工程 PASS；菜单问卷、主动学习及真人正式门槛未完成 |
+| Phase 3 | IN_PROGRESS | 浏览器采集及终端问卷、菜单双阶段、主动查询均有合成验收；正式食品和真人门槛仍未满足 |
 | Phase 4 | NOT_STARTED | 尚未实施 |
 | Phase 5 | NOT_STARTED | 尚未实施 |
 | Phase 6 | NOT_STARTED | 尚未实施 |
@@ -72,3 +72,43 @@
 - 本模块真实研究参与者=0；正式 HUMAN_STUDY=BLOCKED / FORMAL_COLLECTION_DISABLED_AND_FOODBENCH_NOT_APPROVED；RQ1/RQ2=NOT_RUN。未开展正式真人采集，未代真人作答。
 - Phase 0/1 沿用既有验收；Phase 2 正式 FoodBench 仍 BLOCKED；Phase 3 仅独立 taste 采集模块工程 PASS，阶段总体 IN_PROGRESS。Phase 4–11 本轮未执行，不升级为 PASS。
 - 下一步：经审核的 FoodBench 与正式同意/机构流程完成后再实现受控正式适配器；菜单问卷、正式 active/random 策略与评价隔离按既有方法后续实施。
+
+
+
+## Phase 3 合成划分冻结与存储层 — 2026-10-13
+
+实际执行位置已核实为本机 WSL /home/adminhh/projects/bite-bench；macOS 为历史环境。Phase 2 仍 BLOCKED，真人采集关闭。
+
+- 五食品夹具：4 个训练对、2 个 known-food 测试对、2 个 cold-food 测试对、1 个冷食品、4 个训练锚点 ID。只用于部分工程验证，不满足正式 40/10/8 设计，不是正式 protocol.lock。
+- 冻结文件包含食品快照 SHA256，拒绝不同内容覆盖；审计检查配对唯一性、冷食品训练泄漏和来源快照变化。主动候选访问只开放训练对。
+- synthetic-only SQLite：匿名 UUID、哈希撤回 token、锁定展示顺序、事务和唯一性、幂等重复、冲突拒绝、保留 tie/skip、训练/测试分开导出、撤回关联删除。真人记录与非 synthetic 数据库路径被拒绝。
+- 默认导出 train，test 必须显式选择。撤回删除数据库内用户及关联记录，不自动回收此前导出副本。真人生命周期仍待实施。
+- 实测 66 passed in 0.46s，ruff 通过；split audit PASS；合成存储 smoke 写入 1、重复写入 0、导出 1、撤回后答案 0。
+- 验收命令：uv run --no-sync pytest -q -p no:cacheprovider；uv run --no-sync ruff check src tests；uv run --no-sync bite split freeze；uv run --no-sync bite split audit。日志 outputs/reports/phase3_*，manifest 记录哈希。
+- 调度失败记录：PowerShell stdin CRLF 导致 heredoc/cat 解析错误，非登录 shell 无 uv PATH，一次 base64 shell 引号失败。已用登录 shell 或 uv 绝对路径核验最终代码和实际日志，不将调度失败当作通过。
+- 下一步补充锚点评分、菜单双阶段存储，再实现合成 UI 与恢复流程。整个 Phase 3 仍 IN_PROGRESS。未更改公式、M0–M4、正式冻结协议，未提交或推送 Git。
+
+
+## Phase 3 合成问卷续接 — 2026-10-14（Asia/Shanghai）
+
+- 新增独立合成三餐菜单 questionnaire_menus.json 和 questionnaire_v1.json。原五食品划分 phase3_v1.json 未修改，正式 protocol.lock.yaml 未生成或覆盖。仍是部分工程夹具（8 道 taste、4 个锚点、1 个菜单 pair）。
+- 终端问卷 bite label app：合成说明确认后创建匿名记录，保存说明版本；token 暂停/恢复与撤回；随机组按稳定哈希排序提问，左右位置按用户/题目/seed 固定；显示标准份量，保留是否吃过和自愿饥饿字段。
+- 锚点评分 0–10，拒绝非训练锚点、冷食品、NaN 和真人标记；不可静默覆盖。菜单必须三餐、来自冻结合成食品。全部隐藏营养题完成后才允许显示营养，双阶段沿用相同左右顺序；营养由现有确定性 calculator 计算并标为 SYNTHETIC。
+- 数据库新增 anchors、menu_displays、menu_answers、queries、notices。唯一键防重复；BEGIN IMMEDIATE 序列化答案提交，测试验证并发重复仅写一次。候选池只存训练题 ID 与 hash；无拟合模型时 model_state_sha256=null。active 组调度明确拒绝，不能假称已完成主动学习。
+- 实测最终 74 passed in 0.40s，ruff 通过。真实执行的终端 CLI smoke：taste 8、anchor 4、菜单回答 2 / 独立 pair 1，暂停恢复、营养隐藏、锚点/菜单 CSV 导出与撤回均通过。撤回后八张用户相关表均 0 行；先前合成导出副本保留，未冒称物理清除全部副本。
+- 日志 outputs/reports/phase3_questionnaire_*，manifest 新增带 source/config/dataset/questionnaire hash 的工程 run。开始写三餐夹具时脚本缺少 json 导入，已修复并重跑，未伪造验收。
+- Phase 2 BLOCKED；真人采集、正式食品审核、真实 H1/H2、完整 40/10/8 与每人 12 个菜单 pair 的研究验收仍未满足。整个 Phase 3 IN_PROGRESS。
+- 下一步：实现有模型状态哈希的主动查询接入、固定覆盖题/自适应题划分和完整规模合成验收；正式调查继续等待数据审核、冻结与合规授权。终端 UI 为首版，不宣称已实现 Streamlit 浏览器版。
+
+
+## Phase 3 主动查询与完整规模合成验收 — 2026-10-14
+
+- 新增 synthetic_bt_query_v1：仅用于查询选择的正则 BT 模型（L2=1、L-BFGS-B、200 迭代上限），不是正式 TasteNet/B3、不是校准 0–100 美味模型。只读取当前合成会话的 train 记录；tie/skip 保留并排除二分类拟合；没有有效标签时使用显式零效用先验。
+- active 策略用 p*(1-p) 不确定性选择，同分按 pair_id 破同分；random 用冻结 seed 和用户 ID 的稳定随机顺序。20 个固定覆盖题完成后，各组执行 20 个策略查询；均在40次训练后转入5 known+5 cold测试。预算按实际响应计，包含 tie/skip，不把未问候选算成观测。
+- query 审计存候选 ID/hash、策略版本、顺序、选中概率、模型状态和状态 hash，状态包含训练数据 hash、使用记录数、有效二分类数和排除数。暂停恢复使用已经发出的题目，避免刷新换题；训练导出仍不包含 test。
+- 新建独立 data/fixtures/synthetic/phase3_sized/：48 食品、60 三餐菜单，所有营养和来源均为显式合成夹具。phase3_sized_v1.json 固定8冷食品、8训练锚点、20覆盖题、20查询预算、10冻结测试题以及随机打乱的12/12组别计划。questionnaire_sized_v1.json 固定24 final菜单、36 development菜单及12最终比较对。旧v1冻结文件原始SHA256复核一致，未覆盖。
+- 实测24个合成会话全部完成：12 active / 12 random，训练960、测试240、锚点192、菜单阶段记录576；每会话12独立菜单pair，合成会话-pair观测共288（全局唯一pair仍12）。真人参与者0；这些数据绝不用于声称 H1/H2、人群效应或营养审核。
+- 最终81 passed in 1.22s，ruff通过；所有 active 模型状态不含 cold-food 参数、test题目或未来训练答案，候选池审计通过。CLI bite label smoke-sized 在新run目录执行并记录metrics/CSV/SQLite。重复输出拒绝覆盖；撤回后组别计划序号不重新使用。
+- 日志 outputs/reports/phase3_active_sized_*；旧冻结复核 phase3_prior_freezes_audit.json；新run纳入manifest。评分公式、M0–M4、正式协议及真实数据均未修改。未下载LLM、未提交或推送Git。
+- Phase 3 合成工程验收已通过；整体仍 IN_PROGRESS，因为正式数据门槛、真人采集授权及真实问卷验收尚未完成。Phase 2继续BLOCKED。
+- 下一步可进入Phase 4合成TasteNet基线、特征模型、个性化、训练锚点校准和冻结测试指标工程；主动查询模型不替代正式模型验收。

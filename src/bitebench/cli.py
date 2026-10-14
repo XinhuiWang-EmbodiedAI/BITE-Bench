@@ -222,3 +222,175 @@ def review_view(
 
     render_review_cards(Path(cards), Path(out))
     typer.echo(f"Wrote offline human review cards to {out}; no approvals recorded.")
+
+
+split_app = typer.Typer(help="Synthetic-only frozen questionnaire partitions.")
+app.add_typer(split_app, name="split")
+
+
+@split_app.command("freeze")
+def split_freeze(
+    food_data: str = "data/fixtures/synthetic/foods.csv",
+    out: str = "data/splits/synthetic/phase3_v1.json",
+    mode: str = "synthetic_only",
+    seed: int = 23,
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import freeze
+
+    if mode != "synthetic_only":
+        raise typer.BadParameter("human collection disabled")
+    result = freeze(Path(food_data), Path(out), seed)
+    typer.echo(
+        json_module.dumps({"sha256": result["sha256"], "scope": result["scope"]})
+    )
+
+
+@split_app.command("audit")
+def split_audit(
+    input: str = "data/splits/synthetic/phase3_v1.json",
+    food_data: str = "data/fixtures/synthetic/foods.csv",
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import read, verify_foods
+
+    protocol = read(Path(input))
+    verify_foods(protocol, Path(food_data))
+    typer.echo(
+        json_module.dumps(
+            {"status": "PASS", "is_synthetic": True, "sha256": protocol["sha256"]}
+        )
+    )
+
+
+label_app = typer.Typer(help="Synthetic label storage; human collection disabled.")
+app.add_typer(label_app, name="label")
+
+
+@label_app.command("export")
+def label_export(
+    source: str = typer.Option(...),
+    out: str = typer.Option(...),
+    protocol: str = "data/splits/synthetic/phase3_v1.json",
+    split: str = "train",
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import read
+    from bitebench.labeling.storage import Store
+
+    if not Path(source).is_file():
+        raise typer.BadParameter("source database does not exist")
+    store = Store(Path(source), read(Path(protocol)))
+    try:
+        rows = store.export(Path(out), split)
+    finally:
+        store.close()
+    typer.echo(json_module.dumps({"rows": rows, "split": split, "is_synthetic": True}))
+
+
+@split_app.command("freeze-questionnaire")
+def freeze_survey(
+    protocol: str = "data/splits/synthetic/phase3_v1.json",
+    food_data: str = "data/fixtures/synthetic/foods.csv",
+    menus: str = "data/fixtures/synthetic/questionnaire_menus.json",
+    out: str = "data/splits/synthetic/questionnaire_v1.json",
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import read
+    from bitebench.labeling.questionnaire import freeze_questionnaire
+
+    result = freeze_questionnaire(
+        read(Path(protocol)), Path(food_data), Path(menus), Path(out)
+    )
+    typer.echo(
+        json_module.dumps({"sha256": result["sha256"], "scope": result["scope"]})
+    )
+
+
+@label_app.command("app")
+def label_survey(
+    mode: str = "synthetic_only",
+    group: str = "planned",
+    protocol: str = "data/splits/synthetic/phase3_v1.json",
+    questionnaire: str = "data/splits/synthetic/questionnaire_v1.json",
+    food_data: str = "data/fixtures/synthetic/foods.csv",
+    database: str = "outputs/runs/phase3/synthetic/questionnaire.sqlite",
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.ui import PauseSurvey, run
+
+    try:
+        run(Path(protocol), Path(questionnaire), Path(food_data), Path(database), mode)
+    except PauseSurvey:
+        typer.echo("未开始问卷。")
+    except ValueError as error:
+        typer.echo(str(error), err=True)
+        raise typer.Exit(2) from error
+
+
+@label_app.command("export-survey")
+def export_survey(
+    source: str = typer.Option(...),
+    out: str = typer.Option(...),
+    kind: str = "anchors",
+    protocol: str = "data/splits/synthetic/phase3_v1.json",
+    questionnaire: str = "data/splits/synthetic/questionnaire_v1.json",
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import read
+    from bitebench.labeling.questionnaire import read_questionnaire
+    from bitebench.labeling.survey_storage import SurveyStore
+
+    if kind not in {"anchors", "menus"} or not Path(source).is_file():
+        raise typer.BadParameter("existing source and kind anchors/menus required")
+    split = read(Path(protocol))
+    store = SurveyStore(
+        Path(source), split, read_questionnaire(Path(questionnaire), split)
+    )
+    try:
+        rows = store.export_extra(Path(out), kind)
+    finally:
+        store.close()
+    typer.echo(json_module.dumps({"rows": rows, "kind": kind, "is_synthetic": True}))
+
+
+@split_app.command("freeze-sized")
+def sized_split(
+    food_data: str = "data/fixtures/synthetic/phase3_sized/foods.csv",
+    out: str = "data/splits/synthetic/phase3_sized_v1.json",
+    seed: int = 23,
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.protocol import freeze_sized
+
+    result = freeze_sized(Path(food_data), Path(out), seed)
+    typer.echo(
+        json_module.dumps({"sha256": result["sha256"], "scope": result["scope"]})
+    )
+
+
+@label_app.command("smoke-sized")
+def sized_smoke(
+    out: str = typer.Option(...),
+    fixtures: str = "data/fixtures/synthetic/phase3_sized",
+    protocol: str = "data/splits/synthetic/phase3_sized_v1.json",
+    questionnaire: str = "data/splits/synthetic/questionnaire_sized_v1.json",
+    sessions: int = 24,
+    seed: int = 17,
+) -> None:
+    from pathlib import Path
+
+    from bitebench.labeling.sized import prepare, run
+
+    split, manifest = prepare(Path(fixtures), Path(protocol), Path(questionnaire))
+    result = run(split, manifest, Path(out), seed, sessions)
+    typer.echo(
+        json_module.dumps({k: v for k, v in result.items() if k != "per_session"})
+    )

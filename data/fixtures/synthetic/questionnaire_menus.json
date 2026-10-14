@@ -1,0 +1,76 @@
+[
+  {
+    "menu_id": "synthetic_survey_day_1",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_1_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "demo_f1",
+            "servings": 2
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_1_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "demo_f3",
+            "servings": 2
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_1_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "demo_f4",
+            "servings": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "menu_id": "synthetic_survey_day_2",
+    "profile_id": "balanced",
+    "is_synthetic": true,
+    "meals": [
+      {
+        "meal_id": "synthetic_2_breakfast",
+        "slot": "breakfast",
+        "items": [
+          {
+            "food_id": "demo_f2",
+            "servings": 2
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_2_lunch",
+        "slot": "lunch",
+        "items": [
+          {
+            "food_id": "demo_f1",
+            "servings": 2
+          }
+        ]
+      },
+      {
+        "meal_id": "synthetic_2_dinner",
+        "slot": "dinner",
+        "items": [
+          {
+            "food_id": "demo_f5",
+            "servings": 2
+          }
+        ]
+      }
+    ]
+  }
+]

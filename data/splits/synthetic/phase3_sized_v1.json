@@ -1,0 +1,6389 @@
+{
+  "version": "synthetic_sized_split_v1",
+  "mode": "synthetic_only",
+  "is_synthetic": true,
+  "scope": "protocol_sized_engineering_fixture_not_formal_protocol",
+  "seed": 23,
+  "food_ids": [
+    "synthetic_F001",
+    "synthetic_F002",
+    "synthetic_F003",
+    "synthetic_F004",
+    "synthetic_F005",
+    "synthetic_F006",
+    "synthetic_F007",
+    "synthetic_F008",
+    "synthetic_F009",
+    "synthetic_F010",
+    "synthetic_F011",
+    "synthetic_F012",
+    "synthetic_F013",
+    "synthetic_F014",
+    "synthetic_F015",
+    "synthetic_F016",
+    "synthetic_F017",
+    "synthetic_F018",
+    "synthetic_F019",
+    "synthetic_F020",
+    "synthetic_F021",
+    "synthetic_F022",
+    "synthetic_F023",
+    "synthetic_F024",
+    "synthetic_F025",
+    "synthetic_F026",
+    "synthetic_F027",
+    "synthetic_F028",
+    "synthetic_F029",
+    "synthetic_F030",
+    "synthetic_F031",
+    "synthetic_F032",
+    "synthetic_F033",
+    "synthetic_F034",
+    "synthetic_F035",
+    "synthetic_F036",
+    "synthetic_F037",
+    "synthetic_F038",
+    "synthetic_F039",
+    "synthetic_F040",
+    "synthetic_F041",
+    "synthetic_F042",
+    "synthetic_F043",
+    "synthetic_F044",
+    "synthetic_F045",
+    "synthetic_F046",
+    "synthetic_F047",
+    "synthetic_F048"
+  ],
+  "heldout_food_ids": [
+    "synthetic_F041",
+    "synthetic_F042",
+    "synthetic_F043",
+    "synthetic_F044",
+    "synthetic_F045",
+    "synthetic_F046",
+    "synthetic_F047",
+    "synthetic_F048"
+  ],
+  "anchor_food_ids": [
+    "synthetic_F001",
+    "synthetic_F002",
+    "synthetic_F003",
+    "synthetic_F004",
+    "synthetic_F005",
+    "synthetic_F006",
+    "synthetic_F007",
+    "synthetic_F008"
+  ],
+  "pairs": [
+    {
+      "pair_id": "sized_coverage_synthetic_F001_synthetic_F002",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F002",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F003_synthetic_F004",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F004",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F005_synthetic_F006",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F006",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F007_synthetic_F008",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F009_synthetic_F010",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F011_synthetic_F012",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F013_synthetic_F014",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F015_synthetic_F016",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F017_synthetic_F018",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F019_synthetic_F020",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F021_synthetic_F022",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F023_synthetic_F024",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F025_synthetic_F026",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F027_synthetic_F028",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F029_synthetic_F030",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F031_synthetic_F032",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F033_synthetic_F034",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F035_synthetic_F036",
+      "left_food_id": "synthetic_F035",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F037_synthetic_F038",
+      "left_food_id": "synthetic_F037",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_coverage_synthetic_F039_synthetic_F040",
+      "left_food_id": "synthetic_F039",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "coverage"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F014",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F033",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F020",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F026",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F032",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F013",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F018",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F035_synthetic_F037",
+      "left_food_id": "synthetic_F035",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F036",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F022",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F035",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F037",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F037",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F031",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F024",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F027",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F032",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F003",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F003",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F015",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F032",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F030",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F032",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F040",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F038",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F024",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F021",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F009",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F026",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F012",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F019",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F033",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F032",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F035",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F023",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F026",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F014",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F037",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F036_synthetic_F039",
+      "left_food_id": "synthetic_F036",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F030",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F036",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F031",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F035",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F016",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F024",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F020",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F035",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F028",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F036",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F025",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F034",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F017",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F036",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F035_synthetic_F040",
+      "left_food_id": "synthetic_F035",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F028",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F023",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F038",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F039",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F020",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F038",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F034",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F029",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F033",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F038",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F026",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F038",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F034",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F036",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F036_synthetic_F037",
+      "left_food_id": "synthetic_F036",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F033",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F007",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F022",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F025",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F018",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F032",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F035",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F008",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F023",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F013",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F026",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F028",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F013",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F036",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F037",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F037",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F040",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F029",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F039",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F027",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F015",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F031",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F023",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F034",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F008",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F023",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F038",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F019",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F023",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F040",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F007",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F011",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F016",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F031",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F024",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F040",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F036",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F030",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F028",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F036_synthetic_F040",
+      "left_food_id": "synthetic_F036",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F008",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F037",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F012",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F040",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F033",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F021",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F038",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F036",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F019",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F018",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F021",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F023",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F013",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F028",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F032",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F039",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F020",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F023",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F019",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F019",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F028",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F033",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F026",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F031",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F019",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F016",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F030",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F020",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F027",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F029",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F037",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F039",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F022",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F029",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F036",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F035",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F017",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F037",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F034",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F018",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F034",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F037",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F038",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F017",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F038",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F014",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F028",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F027",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F005",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F005",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F031",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F039",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F022",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F027",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F037",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F010",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F034",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F024",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F036",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F017",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F023",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F025",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F032",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F011",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F038",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F031",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F035",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F025",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F030",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F029",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F033",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F034",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F030",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F017",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F037",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F040",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F019",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F033",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F027",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F010",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F030",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F031",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F026",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F036",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F025",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F009",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F017",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F020",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F038",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F009",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F036",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F039",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F031",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F031",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F025",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F029",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F027",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F032",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F029",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F025",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F036",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F038",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F020",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F022",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F029",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F005",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F005",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F037",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F031",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F032",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F039",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F011",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F028",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F038_synthetic_F040",
+      "left_food_id": "synthetic_F038",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F018",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F017",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F036",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F033",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F034",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F007",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F039",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F018",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F028",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F022",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F028",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F037",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F027",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F033",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F036",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F031",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F036",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F023",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F033",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F038",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F037",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F021",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F017",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F033",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F028",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F033",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F036",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F032",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F020",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F037",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F010",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F014",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F040",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F019",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F021",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F029",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F018",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F017",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F030",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F029",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F008",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F024",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F021",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F034",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F030",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F015",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F029",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F019",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F019",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F028",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F034",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F035",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F035",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F012",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F021",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F040",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F036",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F033",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F031",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F016",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F037",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F038_synthetic_F039",
+      "left_food_id": "synthetic_F038",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F030",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F039",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F035",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F017",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F028",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F024",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F030",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F026",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F016",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F023",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F034",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F032",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F038",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F023",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F033",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F035",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F021",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F023",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F014",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F037",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F037",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F038",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F003",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F003",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F035_synthetic_F039",
+      "left_food_id": "synthetic_F035",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F037",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F034",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F011",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F030",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F019",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F032",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F033",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F027",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F006",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F006",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F040",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F024",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F031",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F025",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F028",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F029",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F021",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F034",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F040",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F031",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F034",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F005",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F005",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F038",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F021",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F021",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F031",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F040",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F023",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F020",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F007",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F039",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F037",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F039",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F014",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F035",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F039",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F034",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F040",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F013",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F017",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F026",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F030",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F025",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F033",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F030",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F031",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F031",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F035",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F011",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F027",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F028",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F030",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F025",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F040",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F029",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F039",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F029",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F035",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F038",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F027",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F027",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F038",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F030",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F024",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F016",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F016",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F031",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F038",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F015",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F013",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F032",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F015",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F035",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F035",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F026",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F035",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F024",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F040",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F037",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F040",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F033",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F023",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F020",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F040",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F039",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F004",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F004",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F030",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F035",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F013",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F040",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F039",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F026",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F018",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F029",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F012",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F020",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F024",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F020",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F035",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F011",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F016",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F025",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F013",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F029",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F026",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F021",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F038",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F016",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F037_synthetic_F040",
+      "left_food_id": "synthetic_F037",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F028",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F018",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F012",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F037",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F032",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F034",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F039",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F034",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F036",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F021",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F027",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F038",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F032",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F009",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F038",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F020",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F025",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F011",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F037",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F030",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F036_synthetic_F038",
+      "left_food_id": "synthetic_F036",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F036",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F021",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F024",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F027",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F012",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F040",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F018",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F017",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F030",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F019",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F034",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F031",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F027",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F038",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F022",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F026",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F018",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F038",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F029",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F030",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F005",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F005",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F034",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F033",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F010",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F040",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F031",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F032",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F037",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F040",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F029",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F018",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F032",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F021",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F011",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F026",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F040",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F031",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F024",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F012",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F038",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F033",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F018",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F036",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F032",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F038",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F034",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F039",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F025",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F039",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F027",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F039",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F025",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F032",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F010",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F036",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F028",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F035",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F020",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F019",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F033",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F025",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F030",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F034",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F034",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F012",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F037",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F039",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F026",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F035",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F026",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F022",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F006",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F006",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F039",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F040",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F031",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F014",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F024",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F009",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F021",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F009",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F015",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F030",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F031",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F010",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F035",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F029",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F025",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F014",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F037",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F026",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F036",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F010",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F021",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F025",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F016",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F018",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F006",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F006",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F024",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F037",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F008",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F034",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F015",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F038",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F020",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F015",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F022",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F034",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F022",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F008",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F008",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F015",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F023",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F022",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F011",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F040",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F030",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F036",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F028",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F029",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F040",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F036",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F021",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F039",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F032",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F028",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F034",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F017",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F032",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F035",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F026",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F039",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F032",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F025",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F033",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F036",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F014",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F023",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F012",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F025",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F032",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F036",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F033",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F033",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F030",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F033",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F027",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F039",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F019",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F007",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F039",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F028",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F027",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F035",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F033",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F009",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F035",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F036",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F018",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F009",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F009",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F027",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F015",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F033",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F033",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F013",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F035",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F040",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F038",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F022",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F017",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F024",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F031",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F037",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F038",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F028",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F029",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F034",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F023_synthetic_F036",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F036",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F015",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F028",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F017",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F024",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F029",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F015",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F027",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F035",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F031",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F020",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F037",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F032",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F037",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F032",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F022",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F030",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F034",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F022",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F035",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F033",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F039",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F026",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F022",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F022",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F031",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F006",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F006",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F040",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F022",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F025",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F031",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F019",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F027",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F024",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F039",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F032",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F032_synthetic_F035",
+      "left_food_id": "synthetic_F032",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F020",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F016",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F024",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F025",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F026",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F013_synthetic_F021",
+      "left_food_id": "synthetic_F013",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F019",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F038",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F022",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F037",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F029",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F030",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F037",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F031",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F037_synthetic_F039",
+      "left_food_id": "synthetic_F037",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F038",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F039",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F037",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F036",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F027",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F015",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F027",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F038",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F012",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F012",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F025",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F016",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F023",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F035",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F013",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F036",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F026",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F023",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F040",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F039",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F029_synthetic_F040",
+      "left_food_id": "synthetic_F029",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F018",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F018",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F030_synthetic_F035",
+      "left_food_id": "synthetic_F030",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F013",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F024",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F004",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F004",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F029",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F029",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F013",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F013",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F010",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F010",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F039",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F025",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F033",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F030",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F032",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F027",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F007",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F007",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F011",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F011",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F026",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F025_synthetic_F036",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F028_synthetic_F032",
+      "left_food_id": "synthetic_F028",
+      "right_food_id": "synthetic_F032",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F027",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F029",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F039",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F040",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F016_synthetic_F030",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F030",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F033_synthetic_F038",
+      "left_food_id": "synthetic_F033",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F029",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F022",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F027_synthetic_F029",
+      "left_food_id": "synthetic_F027",
+      "right_food_id": "synthetic_F029",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F019",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F021_synthetic_F028",
+      "left_food_id": "synthetic_F021",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F039",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F020_synthetic_F040",
+      "left_food_id": "synthetic_F020",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F016",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F014",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F035_synthetic_F038",
+      "left_food_id": "synthetic_F035",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F005_synthetic_F035",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F026_synthetic_F038",
+      "left_food_id": "synthetic_F026",
+      "right_food_id": "synthetic_F038",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F022",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F022",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F028",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F039",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F035",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F002_synthetic_F023",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F040",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F034",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F035",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F035",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F018_synthetic_F025",
+      "left_food_id": "synthetic_F018",
+      "right_food_id": "synthetic_F025",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F023",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F024",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F017_synthetic_F033",
+      "left_food_id": "synthetic_F017",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F031_synthetic_F040",
+      "left_food_id": "synthetic_F031",
+      "right_food_id": "synthetic_F040",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F016",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F016",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F037",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F037",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F028",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F034",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F024_synthetic_F028",
+      "left_food_id": "synthetic_F024",
+      "right_food_id": "synthetic_F028",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F007_synthetic_F019",
+      "left_food_id": "synthetic_F007",
+      "right_food_id": "synthetic_F019",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F017",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F017",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F015_synthetic_F024",
+      "left_food_id": "synthetic_F015",
+      "right_food_id": "synthetic_F024",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F008_synthetic_F034",
+      "left_food_id": "synthetic_F008",
+      "right_food_id": "synthetic_F034",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F006_synthetic_F021",
+      "left_food_id": "synthetic_F006",
+      "right_food_id": "synthetic_F021",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F034_synthetic_F036",
+      "left_food_id": "synthetic_F034",
+      "right_food_id": "synthetic_F036",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F004_synthetic_F026",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F011_synthetic_F039",
+      "left_food_id": "synthetic_F011",
+      "right_food_id": "synthetic_F039",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F019_synthetic_F023",
+      "left_food_id": "synthetic_F019",
+      "right_food_id": "synthetic_F023",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F012_synthetic_F033",
+      "left_food_id": "synthetic_F012",
+      "right_food_id": "synthetic_F033",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F014_synthetic_F026",
+      "left_food_id": "synthetic_F014",
+      "right_food_id": "synthetic_F026",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F010_synthetic_F015",
+      "left_food_id": "synthetic_F010",
+      "right_food_id": "synthetic_F015",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F022_synthetic_F031",
+      "left_food_id": "synthetic_F022",
+      "right_food_id": "synthetic_F031",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F001_synthetic_F020",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F020",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F003_synthetic_F014",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F014",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_query_synthetic_F009_synthetic_F027",
+      "left_food_id": "synthetic_F009",
+      "right_food_id": "synthetic_F027",
+      "split": "train",
+      "stratum": "known_food",
+      "query_phase": "query"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F005_synthetic_F014",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F014",
+      "split": "test",
+      "stratum": "known_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F004_synthetic_F034",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F034",
+      "split": "test",
+      "stratum": "known_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F023_synthetic_F040",
+      "left_food_id": "synthetic_F023",
+      "right_food_id": "synthetic_F040",
+      "split": "test",
+      "stratum": "known_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F025_synthetic_F032",
+      "left_food_id": "synthetic_F025",
+      "right_food_id": "synthetic_F032",
+      "split": "test",
+      "stratum": "known_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F016_synthetic_F040",
+      "left_food_id": "synthetic_F016",
+      "right_food_id": "synthetic_F040",
+      "split": "test",
+      "stratum": "known_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F001_synthetic_F041",
+      "left_food_id": "synthetic_F001",
+      "right_food_id": "synthetic_F041",
+      "split": "test",
+      "stratum": "cold_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F002_synthetic_F042",
+      "left_food_id": "synthetic_F002",
+      "right_food_id": "synthetic_F042",
+      "split": "test",
+      "stratum": "cold_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F003_synthetic_F043",
+      "left_food_id": "synthetic_F003",
+      "right_food_id": "synthetic_F043",
+      "split": "test",
+      "stratum": "cold_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F004_synthetic_F044",
+      "left_food_id": "synthetic_F004",
+      "right_food_id": "synthetic_F044",
+      "split": "test",
+      "stratum": "cold_food",
+      "query_phase": "test"
+    },
+    {
+      "pair_id": "sized_test_synthetic_F005_synthetic_F045",
+      "left_food_id": "synthetic_F005",
+      "right_food_id": "synthetic_F045",
+      "split": "test",
+      "stratum": "cold_food",
+      "query_phase": "test"
+    }
+  ],
+  "training_budget": 40,
+  "adaptive_budget": 20,
+  "assignment_order": [
+    "active",
+    "active",
+    "random",
+    "random",
+    "active",
+    "random",
+    "active",
+    "active",
+    "random",
+    "random",
+    "random",
+    "active",
+    "active",
+    "random",
+    "random",
+    "random",
+    "active",
+    "random",
+    "random",
+    "random",
+    "active",
+    "active",
+    "active",
+    "active"
+  ],
+  "dataset_sha256": "6df79a1bfc9af2a59b15dc8edf21bb00f13eb82fc5b1f838913c821f6ead1921",
+  "sha256": "f0e368b419fa0c28ae34bd73067cd2363d042e34a80d05b8f092607db79ddc22"
+}
