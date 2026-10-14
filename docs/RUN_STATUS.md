@@ -1,5 +1,7 @@
 # BITE-Bench Run Status
 
+2026-10-14 文档交付：新增 [FoodBench 与采集流程交接方案](FOODBENCH_COLLECTION_HANDOFF.md)。仅核对现状并编写方案，未执行数据构建、应用接入、远程操作或真人采集，不改变下列阶段验收状态。方案哈希单独登记为 planning_documents，不计为实验运行。
+
 更新：2026-10-14（Asia/Shanghai）。用户已授权开始实验并连接 5060；默认 hybrid_pilot，首先 synthetic_only。
 
 研究约束：真实偏好与合成数据隔离；营养事实来自可追溯确定性输入；缺失值保持 null；审核与最终测试冻结不可绕过。正式 RQ1/RQ2 尚无结果。

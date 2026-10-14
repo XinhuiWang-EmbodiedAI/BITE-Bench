@@ -113,10 +113,10 @@
 
 推荐方程：
 
-\[
-P(f_i\succ f_j\mid u)=\sigma(s_{u,i}-s_{u,j}),\qquad
-s_{u,i}=\mu_i+\boldsymbol\beta^\top \mathbf z_i+\mathbf p_u^\top W\mathbf z_i.
-\]
+$$P(f_i\succ f_j\mid u)=\sigma(s_{u,i}-s_{u,j}),\qquad
+s_{u,i}=\mu_i+\boldsymbol\beta^\top \mathbf z_i+\mathbf p_u^\top W\mathbf z_i.$$
+
+
 
 对未见食物 `mu_i` 不可从训练标签学习，预测时以零中心先验代入，仅使用特征项；对未见用户，`p_u=0` 或通过少量偏好适配。训练最小化成对二元交叉熵（tie 单独建模或排除）加 L2 正则；采用多随机种子/Bootstrap 检验稳定性。
 
@@ -160,24 +160,20 @@ N/F 的**数值维度由可重现规则产生**；N/F Agent 负责证据检查�
 
 一个可实现的统一模式是：
 
-\[
-q_T=\operatorname{clip}(q_T^{base}+\delta_T,0,100),\quad
+$$q_T=\operatorname{clip}(q_T^{base}+\delta_T,0,100),\quad
 q_N=h_N(D;\theta_N),\quad
 q_F=h_F(D,G_u;\theta_F),\quad
-q_L=\operatorname{clip}(q_L^{base}+\delta_L,0,100).
-\]
+q_L=\operatorname{clip}(q_L^{base}+\delta_L,0,100).$$
 
 其中 `delta_T`、`delta_L` 由各自 Agent 建议，受有界范围、Schema 和证据约束；无证据、LLM 不可用或 JSON 无效则调整设为 0 并记录 `fallback_reason`，绝不可无声地把失败当真实 0 分。`h_N`,`h_F` 和重复规则应发布配置版本与单元测试。
 
 总评分：
 
-\[
-\boxed{
+$$\boxed{
 S_u(D)=\operatorname{clip}_{[0,100]}
 \Big(\sum_{k\in\{T,N,F,L\}}w_{u,k}q_k(D)-\lambda V(D)\Big),\quad
 \sum_k w_{u,k}=1,\;w_{u,k}\ge 0.
-}
-\]
+}$$
 
 `V(D)` 为**独立于 Agent 主观评分**的违规惩罚，含明确命名的软约束违规；硬约束（如明确定义的用户排除食物、关键营养字段缺失）应判为 `ineligible`，而不是给出似是而非的 58 分。惩罚参数在验证集选择、测试前冻结。严格区分**分项评分**、**违规状态**、**最终 BITE 总分**。
 

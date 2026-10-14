@@ -724,5 +724,17 @@
   "experiments_status": "NOT_RUN",
   "phase_1_status": "PASS",
   "phase_2_status": "BLOCKED",
-  "phase_3_status": "IN_PROGRESS"
+  "phase_3_status": "IN_PROGRESS",
+  "planning_documents": [
+    {
+      "path": "docs/FOODBENCH_COLLECTION_HANDOFF.md",
+      "sha256": "19a067b8d6f2c2e46fb77d3e07ed3ea351350cf15a58dfb98169ec9fe96d8e39",
+      "date": "2026-10-14",
+      "timezone": "Asia/Shanghai",
+      "type": "collaborator_handoff_plan",
+      "scope": "documentation_only_not_an_experiment_run",
+      "implementation_status": "NOT_RUN",
+      "human_collection_authorized_by_this_document": false
+    }
+  ]
 }
